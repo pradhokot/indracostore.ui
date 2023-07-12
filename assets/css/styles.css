@@ -1,0 +1,23 @@
+html, body {
+    font-family: 'HelveticaNeue', sans-serif;
+    /* color: #fd4f00; */
+    color: #323232;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: inherit !important;
+    opacity: .75 !important;
+}
+
+.bg-light {
+    background-color: #f2f2f2 !important;
+}
+
+.fs-reset {
+    font-size: inherit !important;
+}
+
+.wrapper > section {
+    margin-bottom: calc(5rem + 1vw);
+}
