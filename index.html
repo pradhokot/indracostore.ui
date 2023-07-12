@@ -28,7 +28,7 @@
         <div class="container">
             <a class="navbar-brand d-flex justify-content-center align-items-center position-relative" href="index.html">
                 <img src="assets/img/logotype.svg" height="auto" width="175" class="d-md-none" alt="">
-                <img src="assets/img/logotype.svg" height="auto" width="225" class="d-none d-md-block" alt="">
+                <img src="assets/img/logotype.svg" height="auto" width="252" class="d-none d-md-block" alt="">
             </a>
             <ul class="navbar-nav lh-1 column-gap-md-2" style="font-size: 1.5rem;">
                 <li class="nav-item order-md-2">
@@ -62,10 +62,10 @@
     <nav id="menu" class="sticky-top bg-light shadow" style="border-bottom: solid 1px rgba(0, 0, 0, .25);">
         <div class="container">
             <header class="overflow-x-auto">
-                <div class="text-center py-2 text-capitalize text-nowrap">
+                <div class="text-center py-2 text-nowrap text-uppercase">
                     <a class="text-reset text-decoration-none collapsed" data-bs-toggle="collapse" href="#navcol1">produk</a>
                     <a class="text-reset text-decoration-none collapsed" data-bs-toggle="collapse" href="#navcol2">mesin & peralatan</a>
-                    <a class="text-reset text-decoration-none collapsed text-uppercase" data-bs-toggle="collapse" href="#navcol3">promo</a>
+                    <a class="text-reset text-decoration-none collapsed" data-bs-toggle="collapse" href="#navcol3">promo</a>
                 </div>
             </header>
 
@@ -109,7 +109,7 @@
                                         <div class="row gx-5">
                                             <div class="col col-7 col-xl-8">
                                                 <h5 class="text-capitalize mb-3">supresso</h5>      
-                                                <p>
+                                                <p class="text-justify">
                                                     With coffee beans sourced from the East to the West of Indonesia, Supresso's collection of Indonesian single-origin coffee results in a premium range of exquisite and distinctive taste profiles. We whole-heartedly devote our premium and supreme quality coffee to all ardent coffee lovers worldwide, in beans, ground, drip, and capsule form. Experience Indonesian coffee in its purest form, with Supresso
                                                 </p>
                                             </div>
@@ -122,7 +122,7 @@
                                         <div class="row gx-5">
                                             <div class="col col-7 col-xl-8">
                                                 <h5 class="text-capitalize mb-3">rasa sayang</h5>      
-                                                <p>
+                                                <p class="text-justify">
                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ullam placeat harum error, maiores suscipit, fugiat sunt minus expedita a saepe architecto. Inventore maxime quisquam perferendis consequatur, repellendus in alias.
                                                 </p>
                                             </div>
@@ -153,7 +153,7 @@
                 <section class="collapse fade" id="navcol3" data-bs-parent="#menu">
                     <div class="row">
                         <div class="col py-3">
-                            <h5 class="fw-medium fs-4">PROMO</h5>
+                            <h5 class="fw-medium fs-4">Promo</h5>
                             <hr>
                             <div class="row row-cols-2 row-cols-md-4 row-cols-xl-5 g-3 gx-xl-4 gx-xxl-5 mb-3">
 
@@ -192,10 +192,16 @@
             opacity: .75;
         }
 
+        @media (min-width: 992px) {
+            #menu header a {
+                padding: 0 1.25rem;
+            }
+        }
+
         #menu header a::before {
             content: "";
             width: 1px;
-            height: 80%;
+            height: 100%;
             background-color: rgba(0, 0, 0, .25);
             position: absolute;
             top: 50%;
@@ -305,18 +311,31 @@
 
     <main class="wrapper">
 
-        <section class="mb-0 mb-lg-5">
+        <section class="mb-0 d-none d-lg-block">
             <div class="container">
-                <nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb">
+                <nav id="history" style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb">
                    <ol class="breadcrumb">
+                       <li class="breadcrumb-item"><a href="#">Beranda</a></li>
+                       <li class="breadcrumb-item"><a href="#">Product</a></li>
+                       <li class="breadcrumb-item"><a href="#">Kopi</a></li>
+                       <li class="breadcrumb-item"><a href="#">Kopi Instant</a></li>
                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                       <li class="breadcrumb-item"><a href="#">Home</a></li>
-                       <li class="breadcrumb-item"><a href="#">Home</a></li>
-                       <li class="breadcrumb-item"><a href="#">Home</a></li>
-                       <li class="breadcrumb-item"><a href="#">Home</a></li>
-                       <li class="breadcrumb-item active"><a href="#">Home</a></li>
+                       <li class="breadcrumb-item active"><a href="#">Rasa Sayang</a></li>
                    </ol>
                 </nav>
+                <style>
+                    #history .breadcrumb li a {
+                        color: inherit !important;
+                        text-decoration: underline;
+                        opacity: .875;
+                    }
+
+                    #history .breadcrumb li.active a {
+                        opacity: .5;
+                        text-decoration: none;
+                        cursor: auto !important;
+                    }
+                </style>
             </div>
         </section>
 
@@ -338,7 +357,7 @@
         </section>
 
         <section>
-            <div class="container">
+            <div class="container pt-lg-4">
                 <div class="row gx-lg-5">
                     
                     <div class="col col-12 col-lg-auto">
@@ -348,35 +367,35 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#sidebarFilter" aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body d-block">
-                                <h5 class="fw-medium fs-4 mb-3">Temukan Produk <span class="d-lg-none">Anda</span></h5>
+                                <h5 class="fw-medium fs-4 mb-4">Temukan Produk <span class="d-lg-none">Anda</span></h5>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item px-0 text-reset">
                                         <button class="btn rounded-0 w-100 px-0 d-flex justify-content-between align-items-center text-reset">
-                                            <span>Kategori</span>
+                                            <span>KATEGORI</span>
                                             <i class="bi bi-chevron-down"></i>
                                         </button>
                                     </li>
                                     <li class="list-group-item px-0 text-reset">
                                         <button class="btn rounded-0 w-100 px-0 d-flex justify-content-between align-items-center text-reset">
-                                            <span>Merek</span>
+                                            <span>MEREK</span>
                                             <i class="bi bi-chevron-down"></i>
                                         </button>
                                     </li>
                                     <li class="list-group-item px-0 text-reset">
                                         <button class="btn rounded-0 w-100 px-0 d-flex justify-content-between align-items-center text-reset">
-                                            <span>Kemasan</span>
+                                            <span>KEMASAN</span>
                                             <i class="bi bi-chevron-down"></i>
                                         </button>
                                     </li>
                                     <li class="list-group-item px-0 text-reset">
                                         <button class="btn rounded-0 w-100 px-0 d-flex justify-content-between align-items-center text-reset">
-                                            <span>Urutkan</span>
+                                            <span>URUTKAN</span>
                                             <i class="bi bi-chevron-down"></i>
                                         </button>
                                     </li>
                                     <li class="list-group-item px-0 text-reset">
                                         <button class="btn rounded-0 w-100 px-0 d-flex justify-content-between align-items-center text-reset">
-                                            <span>Harga</span>
+                                            <span>HARGA</span>
                                             <i class="bi bi-chevron-down"></i>
                                         </button>
                                     </li>
@@ -393,42 +412,18 @@
                     </div>
 
                     <div class="col col-12 col-lg ps-xxl-5">
-                        <h5 class="fw-medium fs-4 mb-3">Semua Produk</h5>
+                        <h5 class="fw-medium fs-4 mb-4">Semua Produk</h5>
                         <div>
-                            <div class="row row-cols-2 g-3 row-cols-md-3 row-cols-xl-4">
+                            <div class="row row-cols-2 g-3 row-cols-md-3 row-cols-xl-4 align-items-stretch">
 
-                                <div class="col">
-                                    <div class="card rounded-0 border-0 bg-light text-reset">
-                                        <div class="card-header bg-transparent rounded-0 border-0 p-0">
-                                            <a class="text-reset text-decoration-none" href="#">
-                                                <div class="ratio ratio-1x1">
-                                                    <img src="assets/img/no_images.svg" class="img-fluid w-100 opacity-50 no-images" alt="">
-                                                    <div>
-                                                        <img src=".." class="img-fluid w-100" alt="">
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="card-body text-center lh-1">
-                                            <p class="card-text small mb-1">
-                                                Kopi
-                                            </p>
-                                            <h5 class="card-title fs-reset fw-medium mb-0">
-                                                UCAFÉ Kopi Instan Hazelnut R10
-                                            </h5>
-                                            <p class="card-text small my-3">
-                                                Renceng (10 sachets x 20g)
-                                            </p>
-                                            <div class="card-text">
-                                                <strong>Rp 12.300,-</strong>
-                                            </div>
-                                        </div>
-                                        <div class="card-footer p-0 border-0">
-                                            <!-- <button class="btn btn-dark rounded-0 w-100">BELI</button> -->
-                                            <button class="btn btn-dark rounded-0 w-100" disabled>STOK HABIS</button>
-                                        </div>
-                                    </div>
-                                </div>
+                                <div class="col"><script src="component/product.js"></script></div>
+                                <div class="col"><script src="component/product2.js"></script></div>
+                                <div class="col"><script src="component/product.js"></script></div>
+                                <div class="col"><script src="component/product2.js"></script></div>
+                                <div class="col"><script src="component/product.js"></script></div>
+                                <div class="col"><script src="component/product2.js"></script></div>
+                                <div class="col"><script src="component/product.js"></script></div>
+                                <div class="col"><script src="component/product2.js"></script></div>
 
                             </div>
                         </div>
@@ -438,8 +433,6 @@
 
             </div>
         </section>
-
-        <section style="height: 960px;"></section>
 
     </main>
 

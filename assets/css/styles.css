@@ -1,7 +1,7 @@
 html, body {
     font-family: 'HelveticaNeue', sans-serif;
     /* color: #fd4f00; */
-    color: #323232;
+    color: #585858;
 }
 
 input::placeholder,
@@ -20,4 +20,14 @@ textarea::placeholder {
 
 .wrapper > section {
     margin-bottom: calc(5rem + 1vw);
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+.btn-dark {
+    background-color: #585858 !important;
+    border-color: #585858 !important;
+    color: #ffffff !important;
 }
