@@ -1,7 +1,7 @@
 html, body {
     font-family: 'HelveticaNeue', sans-serif;
-    /* color: #fd4f00; */
-    color: #585858;
+    color: #fd4f00;
+    /* color: #585858; */
 }
 
 input::placeholder,
