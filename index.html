@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="keywords" content="">
+	<meta name="description" content="">
+    <meta name="author" content="">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>INDRACOSTORE &bull; UI Beranda</title>
+	<script type="text/javascript" src="component/head_links.js"></script>
+	<style type="text/css">
+		* {
+			/*outline: solid 1px green;*/
+			outline: solid 1px transparent;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- navbar -->
+	<nav class="navbar bg-body" style="padding-top: .75rem; padding-bottom: .75rem;">
+		<div class="container">
+			<a class="navbar-brand d-flex align-items-center position-relative" href="index.html">
+				<img src="assets/img/logotype.svg" width="auto" height="20" class="d-lg-none">
+				<img src="assets/img/logotype.svg" width="auto" height="30" class="d-none d-lg-block">
+				<h1 class="position-absolute top-50 start-50 translate-middle fs-3 opacity-0">indracostore</h1>
+			</a>
+			<ul class="list-unstyled m-0 ms-auto d-flex align-items-center">
+				<li class="pe-lg-2">
+					<button class="navbar-toggler rounded-0 border-0 d-lg-none">
+						<i class="bi bi-search"></i>
+					</button>
+					<div class="input-group border bg-white d-none d-lg-flex">
+						<input type="search" class="form-control rounded-0 border-0 bg-transparent" name="" placeholder="Cari Produk">
+						<button class="btn">
+							<i class="bi bi-search"></i>
+						</button>
+					</div>
+				</li>
+				<li>
+					<button class="navbar-toggler rounded-0 border-0">
+						<i class="bi bi-person-circle"></i>
+					</button>
+					
+				</li>
+				<li class="position-relative">
+					<button class="navbar-toggler rounded-0 border-0">
+						<i class="bi bi-bag"></i>
+					</button>
+					<span class="position-absolute translate-middle p-1 text-bg-danger border border-light rounded-pill lh-1 fw-medium text-center d-flex justify-content-center align-items-center" style="min-width: 23.6px; top: .25rem; left: calc(100% - .75rem); font-size: .875rem;">0</span>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- main menu -->
+	<nav id="mainMenu" class="bg-light sticky-top border-top border-bottom">
+		<div class="overflow-auto">
+			<ul class="nav justify-content-center text-capitalize flex-nowrap text-nowrap list-vr">
+				<li class="nav-item">
+					<a class="nav-link text-reset" href="#">
+						<h5 class="fs-reset m-0 lh-base">products</h5>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-reset" href="#">
+						<h5 class="fs-reset m-0 lh-base">machine & equipment</h5>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-reset text-uppercase" href="#">
+						<h5 class="fs-reset m-0 lh-base">promo</h5>
+					</a>
+				</li>
+			</ul>
+		</di>
+	</nav>
+
+	<!-- home banner -->
+	<script type="text/javascript" src="component/home_banner.js"></script>
+
+	<!-- trigger sidebar filter -->
+	<script type="text/javascript" src="component/trigger_sidebar_filter.js"></script>
+
+	<main class="wrapper">
+
+		<section>
+			<div class="container">
+				<div class="row gx-lg-5">
+
+					<!-- kolom sidebar filter -->
+					<div class="col col-12 col-lg-auto">
+						<div class="offcanvas-lg offcanvas-start text-reset" data-bs-backdrop="static" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+							<div class="offcanvas-header">
+								<h5 class="offcanvas-title" id="staticBackdropLabel">Sidebar Filter</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"></button>
+							</div>
+							<div class="offcanvas-body">
+
+								<!-- accordion filter -->
+								<div class="accordion accordion-flush text-reset" id="accordionFilter">
+									<div class="accordion-item text-reset">
+										<h2 class="accordion-header">
+											<button class="accordion-button text-reset px-0" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-kategori" aria-expanded="false" aria-controls="accordion-collapse-kategori">
+												KATEGORI
+											</button>
+										</h2>
+										<div id="accordion-collapse-kategori" class="accordion-collapse collapse show" data-bs-parent="#accordionFilter">
+											<div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+										</div>
+									</div>
+
+									<div class="accordion-item text-reset">
+										<h2 class="accordion-header">
+											<button class="accordion-button text-reset px-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-kemasan" aria-expanded="false" aria-controls="accordion-collapse-kemasan">
+												KEMASAN
+											</button>
+										</h2>
+										<div id="accordion-collapse-kemasan" class="accordion-collapse collapse" data-bs-parent="#accordionFilter">
+											<div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+										</div>
+									</div>
+
+									<div class="accordion-item text-reset">
+										<h2 class="accordion-header">
+											<button class="accordion-button text-reset px-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-urutkan" aria-expanded="false" aria-controls="accordion-collapse-urutkan">
+												URUTKAN
+											</button>
+										</h2>
+										<div id="accordion-collapse-urutkan" class="accordion-collapse collapse" data-bs-parent="#accordionFilter">
+											<div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+										</div>
+									</div>
+
+									<div class="accordion-item text-reset">
+										<h2 class="accordion-header">
+											<button class="accordion-button text-reset px-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-harga" aria-expanded="false" aria-controls="accordion-collapse-harga">
+												HARGA
+											</button>
+										</h2>
+										<div id="accordion-collapse-harga" class="accordion-collapse collapse" data-bs-parent="#accordionFilter">
+											<div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+										</div>
+									</div>
+								</div>
+								<style type="text/css">
+									@media (min-width: 992px) {
+										#accordionFilter {
+											width: 216px;
+										}
+									}
+								</style>
+								
+							</div>
+						</div>
+					</div>
+
+					<!-- kolom daftar produk -->
+					<div class="col col-12 col-lg">
+						<h5 class="fw-medium fs-4">Mungkin anda suka</h5>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, molestias voluptate ad laboriosam? Velit assumenda animi blanditiis eos a aliquam est ut corporis similique laudantium, delectus, vel? Placeat, voluptatibus, labore.
+						</p>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+
+		<section style="height: 860px;"></section>
+
+	</main>
+
+	<script type="text/javascript" src="component/scripts.js"></script>
+	
+</body>
+</html>

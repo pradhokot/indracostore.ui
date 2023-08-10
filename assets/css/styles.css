@@ -1,33 +1,42 @@
 html, body {
     font-family: 'HelveticaNeue', sans-serif;
     color: #fd4f00;
-    /* color: #585858; */
-}
-
-input::placeholder,
-textarea::placeholder {
-    color: inherit !important;
-    opacity: .75 !important;
+    /*color: #565656;*/
 }
 
 .bg-light {
     background-color: #f2f2f2 !important;
 }
 
+.bg-dark {
+    background-color: #565656 !important;
+}
+
+.bg-secondary {
+    background-color: #a6a6a6 !important;
+}
+
 .fs-reset {
     font-size: inherit !important;
 }
 
-.wrapper > section {
-    margin-bottom: calc(5rem + 1vw);
+
+/*=========================================== custom list vr*/
+ul.list-vr li {
+    position: relative;
 }
 
-.text-justify {
-    text-align: justify !important;
+ul.list-vr li::before {
+    content: '';
+    width: 1px;
+    height: 50%;
+    background-color: rgba(0, 0, 0, .25);
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
 }
 
-.btn-dark {
-    background-color: #585858 !important;
-    border-color: #585858 !important;
-    color: #ffffff !important;
+ul.list-vr li:last-of-type::before {
+    opacity: 0;
 }
