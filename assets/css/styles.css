@@ -1,7 +1,7 @@
 html, body {
     font-family: 'HelveticaNeue', sans-serif;
-    color: #fd4f00;
-    /*color: #565656;*/
+    /*color: #fd4f00;*/
+    color: #565656;
 }
 
 .bg-light {
@@ -20,8 +20,27 @@ html, body {
     font-size: inherit !important;
 }
 
+main.wrapper > section {
+    margin-bottom: calc(5rem + 1vw);
+}
 
-/*=========================================== custom list vr*/
+
+/*============================ custom button*/
+.btn-dark {
+    border-color: #565656 !important;
+    background-color: #565656 !important;
+    color: #f2f2f2 !important;
+}
+
+
+/*============================ custom placeholder*/
+input::placeholder {
+    color: inherit !important;
+    opacity: .5 !important;
+}
+
+
+/*============================ custom list vr*/
 ul.list-vr li {
     position: relative;
 }
@@ -39,4 +58,31 @@ ul.list-vr li::before {
 
 ul.list-vr li:last-of-type::before {
     opacity: 0;
+}
+
+
+/*============================ custom card produk*/
+@media (min-width: 992px) {
+    .card-produk .card-footer {
+        width: 100%;
+        height: 5px;
+        overflow: hidden;
+        transition: all .36s;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+
+    .card-produk:hover .card-footer {
+        height: 37.6px;
+    }
+}
+
+/*harga produk*/
+.harga-produk .harga-promo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
 }
