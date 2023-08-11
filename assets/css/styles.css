@@ -26,6 +26,21 @@ main.wrapper > section {
 
 
 /*============================ custom button*/
+.pagination .page-link {
+    color: #565656;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #565656;
+    color: white;
+}
+
+.pagination .disabled {
+    opacity: .25 !important;
+}
+
+
+/*============================ custom button*/
 .btn-dark {
     border-color: #565656 !important;
     background-color: #565656 !important;
