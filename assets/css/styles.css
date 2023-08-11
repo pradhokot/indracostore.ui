@@ -101,3 +101,30 @@ ul.list-vr li:last-of-type::before {
     align-items: center;
     column-gap: .5rem;
 }
+
+
+/*============================ custom checkbox & radios*/
+.form-check {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.form-check-input {
+    background-color: #e4e4e4;
+    border-color: #e4e4e4;
+    --bs-form-check-bg-image: none !important;;
+    width: 14px;
+    height: 14px;
+    margin-top: 0;
+}
+
+.form-check-input:checked {
+    background-color: #565656;
+    border-color: #565656;
+}
+
+.form-check-label {
+    padding: 0 .5rem;
+}

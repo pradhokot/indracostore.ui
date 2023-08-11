@@ -56,12 +56,12 @@ document.write(`
 	            </a>
 	        </div>
 
-	        <button class="carousel-control carousel-control-prev" type="button" data-bs-target="#homeBanner" data-bs-slide="prev">
-	            <span class="bi bi-chevron-left display-4" aria-hidden="true"></span>
+	        <button class="carousel-control carousel-control-prev text-dark" type="button" data-bs-target="#homeBanner" data-bs-slide="prev">
+	            <span class="bi bi-chevron-left display-4 bg-light" aria-hidden="true"></span>
 	            <span class="visually-hidden">Previous</span>
 	        </button>
-	        <button class="carousel-control carousel-control-next" type="button" data-bs-target="#homeBanner" data-bs-slide="next">
-	            <span class="bi bi-chevron-right display-4" aria-hidden="true"></span>
+	        <button class="carousel-control carousel-control-next text-dark" type="button" data-bs-target="#homeBanner" data-bs-slide="next">
+	            <span class="bi bi-chevron-right display-4 bg-light" aria-hidden="true"></span>
 	            <span class="visually-hidden">Next</span>
 	        </button>
 	    </div>

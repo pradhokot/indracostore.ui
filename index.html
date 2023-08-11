@@ -19,7 +19,7 @@
 <body>
 
 	<!-- navbar -->
-	<nav class="navbar bg-body" style="padding-top: .75rem; padding-bottom: .75rem;">
+	<nav class="navbar bg-body border-bottom" style="padding-top: .75rem; padding-bottom: .75rem;">
 		<div class="container">
 			<a class="navbar-brand d-flex align-items-center position-relative" href="index.html">
 				<img src="assets/img/logotype.svg" width="auto" height="20" class="d-lg-none">
@@ -55,7 +55,7 @@
 	</nav>
 
 	<!-- main menu -->
-	<nav id="mainMenu" class="bg-light sticky-top border-top border-bottom shadow">
+	<nav id="mainMenu" class="bg-light sticky-top border-bottom border-secondary">
 		<div class="overflow-auto">
 			<ul class="nav justify-content-center text-capitalize flex-nowrap text-nowrap list-vr">
 				<li class="nav-item">
@@ -102,45 +102,194 @@
 								<div class="accordion accordion-flush text-reset" id="accordionFilter">
 									<div class="accordion-item text-reset">
 										<h2 class="accordion-header">
-											<button class="accordion-button text-reset px-0" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-kategori" aria-expanded="false" aria-controls="accordion-collapse-kategori">
+											<button class="accordion-button text-reset px-0 fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-kategori" aria-expanded="false" aria-controls="accordion-collapse-kategori">
 												KATEGORI
 											</button>
 										</h2>
 										<div id="accordion-collapse-kategori" class="accordion-collapse collapse show" data-bs-parent="#accordionFilter">
-											<div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+											<div class="accordion-body pe-0 pt-0">
+												<div class="form-check">
+													<input class="form-check-input rounded-circle" type="checkbox" value="" id="kategoriKopi">
+													<label class="form-check-label btn w-100 text-start rounded-0" for="kategoriKopi">
+														kopi
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input rounded-circle" type="checkbox" value="" id="kategoriJahe">
+													<label class="form-check-label btn w-100 text-start rounded-0" for="kategoriJahe">
+														jahe
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input rounded-circle" type="checkbox" value="" id="kategoriCokelat">
+													<label class="form-check-label btn w-100 text-start rounded-0" for="kategoriCokelat">
+														cokelat
+													</label>
+												</div>
+											</div>
 										</div>
 									</div>
 
 									<div class="accordion-item text-reset">
 										<h2 class="accordion-header">
-											<button class="accordion-button text-reset px-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-kemasan" aria-expanded="false" aria-controls="accordion-collapse-kemasan">
+											<button class="accordion-button text-reset px-0 fw-medium collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-merek" aria-expanded="false" aria-controls="accordion-collapse-merek">
+												MEREK
+											</button>
+										</h2>
+										<div id="accordion-collapse-merek" class="accordion-collapse collapse" data-bs-parent="#accordionFilter">
+											<div class="accordion-body pe-0 pt-0">
+												<div class="form-check">
+													<input class="form-check-input rounded-circle" type="checkbox" value="" id="merekBalicafe">
+													<label class="form-check-label btn w-100 text-start rounded-0" for="merekBalicafe">
+														BaliCafe
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input rounded-circle" type="checkbox" value="" id="merekUcafe">
+													<label class="form-check-label btn w-100 text-start rounded-0" for="merekUcafe">
+														UCAFÉ
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input rounded-circle" type="checkbox" value="" id="merekRS">
+													<label class="form-check-label btn w-100 text-start rounded-0" for="merekRS">
+														rasa sayang
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input rounded-circle" type="checkbox" value="" id="merekTB">
+													<label class="form-check-label btn w-100 text-start rounded-0" for="merekTB">
+														tugu buaya
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input rounded-circle" type="checkbox" value="" id="merekUE">
+													<label class="form-check-label btn w-100 text-start rounded-0" for="merekUE">
+														uang emas
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input rounded-circle" type="checkbox" value="" id="merekHC">
+													<label class="form-check-label btn w-100 text-start rounded-0" for="merekHC">
+														hao cafe
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input rounded-circle" type="checkbox" value="" id="merekBrochoco">
+													<label class="form-check-label btn w-100 text-start rounded-0" for="merekBrochoco">
+														BROCHOCO
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input rounded-circle" type="checkbox" value="" id="merekJaheku">
+													<label class="form-check-label btn w-100 text-start rounded-0" for="merekJaheku">
+														jaheku
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="accordion-item text-reset">
+										<h2 class="accordion-header">
+											<button class="accordion-button text-reset px-0 fw-medium collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-kemasan" aria-expanded="false" aria-controls="accordion-collapse-kemasan">
 												KEMASAN
 											</button>
 										</h2>
 										<div id="accordion-collapse-kemasan" class="accordion-collapse collapse" data-bs-parent="#accordionFilter">
-											<div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+											<div class="accordion-body pe-0 pt-0">
+												<div class="form-check">
+													<input class="form-check-input rounded-circle" type="checkbox" value="" id="kemasanBag">
+													<label class="form-check-label btn w-100 text-start rounded-0" for="kemasanBag">
+														Bag
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input rounded-circle" type="checkbox" value="" id="kemasanBox">
+													<label class="form-check-label btn w-100 text-start rounded-0" for="kemasanBox">
+														Box
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input rounded-circle" type="checkbox" value="" id="kemasanRenceng">
+													<label class="form-check-label btn w-100 text-start rounded-0" for="kemasanRenceng">
+														Renceng
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input rounded-circle" type="checkbox" value="" id="kemasanSachet">
+													<label class="form-check-label btn w-100 text-start rounded-0" for="kemasanSachet">
+														Sachet
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input rounded-circle" type="checkbox" value="" id="kemasanTupper">
+													<label class="form-check-label btn w-100 text-start rounded-0" for="kemasanTupper">
+														Tupper
+													</label>
+												</div>
+											</div>
 										</div>
 									</div>
 
 									<div class="accordion-item text-reset">
 										<h2 class="accordion-header">
-											<button class="accordion-button text-reset px-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-urutkan" aria-expanded="false" aria-controls="accordion-collapse-urutkan">
+											<button class="accordion-button text-reset px-0 fw-medium collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-urutkan" aria-expanded="false" aria-controls="accordion-collapse-urutkan">
 												URUTKAN
 											</button>
 										</h2>
 										<div id="accordion-collapse-urutkan" class="accordion-collapse collapse" data-bs-parent="#accordionFilter">
-											<div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+											<div class="accordion-body pe-0 pt-0">
+												<div class="form-check">
+													<input class="form-check-input rounded-circle" type="radio" name="filter" value="filter1" id="filterPromosi">
+													<label class="form-check-label btn w-100 text-start rounded-0" for="filterPromosi">
+														promosi
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input rounded-circle" type="radio" name="filter" value="filter2" id="filterAbjad">
+													<label class="form-check-label btn w-100 text-start rounded-0" for="filterAbjad">
+														sesuai abjad
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input rounded-circle" type="radio" name="filter" value="filter3" id="filterHargaTinggi">
+													<label class="form-check-label btn w-100 text-start rounded-0" for="filterHargaTinggi">
+														harga tertinggi
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input rounded-circle" type="radio" name="filter" value="filter4" id="filterHargaRendah">
+													<label class="form-check-label btn w-100 text-start rounded-0" for="filterHargaRendah">
+														harga terendah
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input rounded-circle" type="radio" name="filter" value="filter5" id="filterPalingLaku">
+													<label class="form-check-label btn w-100 text-start rounded-0" for="filterPalingLaku">
+														paling laku
+													</label>
+												</div>
+											</div>
 										</div>
 									</div>
 
 									<div class="accordion-item text-reset">
 										<h2 class="accordion-header">
-											<button class="accordion-button text-reset px-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-harga" aria-expanded="false" aria-controls="accordion-collapse-harga">
+											<button class="accordion-button text-reset px-0 fw-medium collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-harga" aria-expanded="false" aria-controls="accordion-collapse-harga">
 												HARGA
 											</button>
 										</h2>
 										<div id="accordion-collapse-harga" class="accordion-collapse collapse" data-bs-parent="#accordionFilter">
-											<div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+											<div class="accordion-body px-0">
+												<div class="form-group">
+													<label for="priceRange" class="form-label d-flex justify-content-between align-items-center">
+														<span>Rp 0,-</span>
+														<span>Rp 100.000,-</span>
+													</label>
+													<input type="range" class="form-range" min="0" max="5" step="0.5" id="priceRange">
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -153,7 +302,13 @@
 									}
 
 									#accordionFilter .accordion-button {
+										color: #565656 !important;
 										background-color: transparent !important;
+										box-shadow: unset !important;
+									}
+
+									#accordionFilter .accordion-button.collapsed {
+										color: #878787 !important;
 									}
 								</style>
 								
@@ -241,146 +396,7 @@
 	</main>
 
 	<!-- copyright -->
-	<footer id="copyright" class="bg-light border-top small" style="color: #878787;">
-		<div class="container py-5">
-			<div class="row gy-5 gy-md-0 gx-md-5">
-				<div class="col col-12 col-md-5 order-md-2 ms-md-auto col-lg-4 col-xxl-3">
-					<p class="lh-1 mb-md-5">
-						<img src="assets/img/logotype.svg" width="100%" height="auto" style="max-width: 272px;">
-						<br>
-						<small class="opacity-75">Indraco Roasting fine exquisite coffee since 1971.</small>
-					</p>
-					<p class="mb-2">Bergabunglah dengan kami dan dapatkan penawaran-penawaran menarik lainnya.</p>
-					<div class="input-group bg-white border">
-						<input type="email" class="form-control rounded-0 border-0" placeholder="Email" name="">
-						<button class="btn">
-							<i class="bi bi-envelope-fill"></i>
-						</button>
-					</div>
-				</div>
-				<div class="col col-12 col-md-auto col-xl-5 order-md-1">
-					<div class="row gx-4 gx-lg-5">
-						<div class="col">
-							<h6 class="fw-medium text-uppercase mb-2 text-dark">informasi</h6>
-							<ul class="list-unstyled mb-0 text-capitalize">
-								<li>
-									<a class="text-decoration-none text-reset" href="#">tentang kami</a>
-								</li>
-								<li>
-									<a class="text-decoration-none text-reset" href="#">hubungi kami</a>
-								</li>
-								<li>
-									<a class="text-decoration-none text-reset" href="#">berita & event</a>
-								</li>
-								<li>
-									<a class="text-decoration-none text-reset" href="#">promo</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col">
-							<h6 class="fw-medium text-uppercase mb-2 text-dark">merek</h6>
-							<ul class="list-unstyled mb-0 text-capitalize">
-								<li>
-									<a class="text-decoration-none text-reset" href="#">supresso</a>
-								</li>
-								<li>
-									<a class="text-decoration-none text-reset" href="#">BaliCafe</a>
-								</li>
-								<li>
-									<a class="text-decoration-none text-reset" href="#">UCAFÉ</a>
-								</li>
-								<li>
-									<a class="text-decoration-none text-reset" href="#">rasa sayang</a>
-								</li>
-								<li>
-									<a class="text-decoration-none text-reset" href="#">tugu buaya</a>
-								</li>
-								<li>
-									<a class="text-decoration-none text-reset" href="#">uang emas</a>
-								</li>
-								<li>
-									<a class="text-decoration-none text-reset" href="#">hao cafe</a>
-								</li>
-								<li>
-									<a class="text-decoration-none text-reset" href="#">BROCHOCO</a>
-								</li>
-								<li>
-									<a class="text-decoration-none text-reset" href="#">jaheku</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col">
-							<h6 class="fw-medium text-uppercase mb-2 text-dark">akun</h6>
-							<ul class="list-unstyled mb-0 text-capitalize">
-								<li>
-									<a class="text-decoration-none text-reset" href="#">akun saya</a>
-								</li>
-								<li>
-									<a class="text-decoration-none text-reset" href="#">pesanan saya</a>
-								</li>
-								<li>
-									<a class="text-decoration-none text-reset" href="#">pengiriman</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bg-dark" style="color: #b4b4b4;">
-			<div class="container py-3">
-				<div class="row g-3 align-items-lg-start">
-					<div class="col col-12 fs-5 d-flex align-items-center column-gap-3 col-lg-auto order-lg-2">
-						<a class="text-decoration-none text-reset" href="#" target="_blank">
-							<i class="bi bi-facebook"></i>
-						</a>
-						<a class="text-decoration-none text-reset" href="#" target="_blank">
-							<i class="bi bi-twitter"></i>
-						</a>
-						<a class="text-decoration-none text-reset" href="#" target="_blank">
-							<i class="bi bi-instagram"></i>
-						</a>
-						<a class="text-decoration-none text-reset" href="#" target="_blank">
-							<i class="bi bi-youtube"></i>
-						</a>
-						<a class="text-decoration-none text-reset ms-auto ms-lg-4" href="#" target="_blank">
-							<img src="assets/img/play.webp" width="auto" height="32">
-						</a>
-					</div>
-					<div class="col col-12 col-lg order-lg-1">
-						<nav style="--bs-breadcrumb-divider: '|';" aria-label="breadcrumb">
-							<ol class="breadcrumb mb-2 text-capitalize">
-								<li class="breadcrumb-item"><a href="#">kebijakan privasi</a></li>
-								<li class="breadcrumb-item"><a href="#">syarat & ketentuan</a></li>
-								<li class="breadcrumb-item"><a href="#">konfirmasi pembayaran</a></li>
-								<li class="breadcrumb-item"><a href="#">unduh brosur</a></li>
-								<li class="breadcrumb-item">
-									<a>
-										<select style="font-size: inherit; color: inherit; border-radius: 0; background-color: #565656; border-width: 0;">
-											<option value="indonesia">Bahasa</option>
-											<option value="english">Language</option>
-										</select>
-									</a>
-								</li>
-							</ol>
-						</nav>
-						<style type="text/css">
-							#copyright .breadcrumb a {
-								color: inherit !important;
-								text-decoration: none;
-							}
-
-							#copyright .breadcrumb-item + .breadcrumb-item::before {
-								color: inherit;
-								opacity: .5;
-							}
-						</style>
-						<small>&copy; 2023 INDRACO. Hak cipta dilindungi undang-undang.</small>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
+	<script type="text/javascript" src="component/copyright.js"></script>
 
 	<script type="text/javascript" src="component/scripts.js"></script>
 	
