@@ -3,12 +3,12 @@ document.write(`
 		<div class="container">
 			<div class="row gx-2">
 				<div class="col">
-					<button class="btn btn-outline-secondary w-100 rounded-0" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop">
+					<button class="btn btn-outline-secondary w-100 rounded-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvasFilter">
 						<i class="bi bi-funnel"></i> Saring
 					</button>
 				</div>
 				<div class="col">
-					<button class="btn btn-outline-secondary w-100 rounded-0" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop">
+					<button class="btn btn-outline-secondary w-100 rounded-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSort">
 						<i class="bi bi-sort-down"></i> Urutkan
 					</button>
 				</div>

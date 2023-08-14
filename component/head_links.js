@@ -4,5 +4,7 @@ document.write(`
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap-icons-1.10.5/font/bootstrap-icons.css">
 	<link rel="stylesheet" type="text/css" href="assets/fonts/HelveticaNeue.css">
 	<link rel="stylesheet" type="text/css" href="assets/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/noUiSlider-15.7.1/dist/nouislider.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/range_slider.css">
 	`)

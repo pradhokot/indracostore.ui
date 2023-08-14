@@ -8,46 +8,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE-edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>INDRACOSTORE &bull; UI Beranda</title>
+	<!-- head links -->
 	<script type="text/javascript" src="component/head_links.js"></script>
-	<link rel="stylesheet" type="text/css" href="assets/noUiSlider-15.7.1/dist/nouislider.min.css">
 	<style type="text/css">
 		* {
 			/*outline: solid 1px green;*/
 			outline: solid 1px transparent;
-		}
-
-
-		/*================ custom range slider*/
-		.noUi-horizontal,
-		.noUi-connect {
-			height: 8px !important;
-		}
-
-		.noUi-target {
-			border-radius: 4px !important;
-			background-color: #b4b4b4 !important;
-			border: solid 0 transparent !important;
-		}
-
-		.noUi-handle {
-			top: -8px !important;
-			right: -12px !important;
-			width: 24px !important;
-			height: 24px !important;
-			border-radius: 12px !important;
-			background-color: #565656 !important;
-			cursor: pointer !important;
-			box-shadow: none !important;
-			border: solid 2px white !important;
-		}
-
-		.noUi-handle::before,
-		.noUi-handle::after {
-			display: none !important;
-		}
-
-		.noUi-connect {
-			background-color: #656565 !important;
 		}
 	</style>
 </head>
@@ -126,17 +92,18 @@
 
 					<!-- kolom sidebar filter -->
 					<div class="col col-12 col-lg-auto">
-						<div class="offcanvas-lg offcanvas-start text-reset" data-bs-backdrop="static" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+						<!-- offcanvas sidebar (filter & urutkan) -->
+						<div class="offcanvas-lg offcanvas-start text-reset" data-bs-backdrop="static" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasFilter" aria-labelledby="offcanvasFilterLabel">
 							<div class="offcanvas-header">
-								<h5 class="offcanvas-title opacity-50" id="staticBackdropLabel">
-									<i class="bi bi-funnel"></i> Saring | Urutkan Produk
+								<h5 class="offcanvas-title opacity-50" id="offcanvasFilterLabel">
+									<i class="bi bi-funnel"></i> Saring Produk
 								</h5>
-								<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"></button>
+								<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-toggle="offcanvas" data-bs-target="#offcanvasFilter"></button>
 							</div>
-							<div class="offcanvas-body">
+							<div class="offcanvas-body flex-lg-column">
 
-								<!-- accordion filter -->
-								<div class="accordion accordion-flush text-reset" id="accordionFilter">
+								<!-- accordion menu (filter on mobile) -->
+								<div class="accordion accordion-flush text-reset mb-lg-5" id="accordionFilter">
 									<div class="accordion-item text-reset">
 										<h2 class="accordion-header">
 											<button class="accordion-button text-reset px-0 fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-kategori" aria-expanded="false" aria-controls="accordion-collapse-kategori">
@@ -144,7 +111,7 @@
 											</button>
 										</h2>
 										<div id="accordion-collapse-kategori" class="accordion-collapse collapse show" data-bs-parent="#accordionFilter">
-											<div class="accordion-body pe-0 pt-0">
+											<div class="accordion-body px-0">
 												<div class="form-check">
 													<input class="form-check-input rounded-circle" type="checkbox" value="" id="kategoriKopi">
 													<label class="form-check-label btn w-100 text-start rounded-0" for="kategoriKopi">
@@ -174,7 +141,7 @@
 											</button>
 										</h2>
 										<div id="accordion-collapse-merek" class="accordion-collapse collapse" data-bs-parent="#accordionFilter">
-											<div class="accordion-body pe-0 pt-0">
+											<div class="accordion-body px-0">
 												<div class="form-check">
 													<input class="form-check-input rounded-circle" type="checkbox" value="" id="merekBalicafe">
 													<label class="form-check-label btn w-100 text-start rounded-0" for="merekBalicafe">
@@ -234,7 +201,7 @@
 											</button>
 										</h2>
 										<div id="accordion-collapse-kemasan" class="accordion-collapse collapse" data-bs-parent="#accordionFilter">
-											<div class="accordion-body pe-0 pt-0">
+											<div class="accordion-body px-0">
 												<div class="form-check">
 													<input class="form-check-input rounded-circle" type="checkbox" value="" id="kemasanBag">
 													<label class="form-check-label btn w-100 text-start rounded-0" for="kemasanBag">
@@ -269,44 +236,15 @@
 										</div>
 									</div>
 
-									<div class="accordion-item text-reset">
+									<div class="accordion-item text-reset d-none d-lg-block">
 										<h2 class="accordion-header">
 											<button class="accordion-button text-reset px-0 fw-medium collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-urutkan" aria-expanded="false" aria-controls="accordion-collapse-urutkan">
 												URUTKAN
 											</button>
 										</h2>
 										<div id="accordion-collapse-urutkan" class="accordion-collapse collapse" data-bs-parent="#accordionFilter">
-											<div class="accordion-body pe-0 pt-0">
-												<div class="form-check">
-													<input class="form-check-input rounded-circle" type="radio" name="filter" value="filter1" id="filterPromosi">
-													<label class="form-check-label btn w-100 text-start rounded-0" for="filterPromosi">
-														promosi
-													</label>
-												</div>
-												<div class="form-check">
-													<input class="form-check-input rounded-circle" type="radio" name="filter" value="filter2" id="filterAbjad">
-													<label class="form-check-label btn w-100 text-start rounded-0" for="filterAbjad">
-														sesuai abjad
-													</label>
-												</div>
-												<div class="form-check">
-													<input class="form-check-input rounded-circle" type="radio" name="filter" value="filter3" id="filterHargaTinggi">
-													<label class="form-check-label btn w-100 text-start rounded-0" for="filterHargaTinggi">
-														harga tertinggi
-													</label>
-												</div>
-												<div class="form-check">
-													<input class="form-check-input rounded-circle" type="radio" name="filter" value="filter4" id="filterHargaRendah">
-													<label class="form-check-label btn w-100 text-start rounded-0" for="filterHargaRendah">
-														harga terendah
-													</label>
-												</div>
-												<div class="form-check">
-													<input class="form-check-input rounded-circle" type="radio" name="filter" value="filter5" id="filterPalingLaku">
-													<label class="form-check-label btn w-100 text-start rounded-0" for="filterPalingLaku">
-														paling laku
-													</label>
-												</div>
+											<div class="accordion-body px-0">
+												<script type="text/javascript" src="component/sort_product.js"></script>
 											</div>
 										</div>
 									</div>
@@ -357,11 +295,32 @@
 										opacity: .5 !important;
 									}
 								</style>
+
+								<div class="d-none d-lg-flex flex-column row-gap-1">
+									<script type="text/javascript" src="component/trigger_filter.js"></script>
+								</div>
 								
 							</div>
 							<div class="offcanvas-header column-gap-2">
-								<button class="btn btn-outline-dark w-100 rounded-0">Reset</button>
-								<button class="btn btn-dark w-100 rounded-0">Filter</button>
+								<script type="text/javascript" src="component/trigger_filter.js"></script>
+							</div>
+						</div>
+
+						<!-- offcanvas sidebar urutkan -->
+						<div class="offcanvas-lg offcanvas-end d-lg-none" data-bs-backdrop="static" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasSort" aria-labelledby="offcanvasSortLabel">
+							<div class="offcanvas-header">
+								<h5 class="offcanvas-title opacity-50" id="offcanvasSortLabel">
+									<i class="bi bi-sort-down"></i> Urutkan Produk
+								</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSort"></button>
+							</div>
+							<div class="offcanvas-body">
+								<div>
+									<script type="text/javascript" src="component/sort_product.js"></script>
+								</div>
+							</div>
+							<div class="offcanvas-header column-gap-2">
+								<script type="text/javascript" src="component/trigger_filter.js"></script>
 							</div>
 						</div>
 					</div>
@@ -448,20 +407,8 @@
 	<!-- copyright -->
 	<script type="text/javascript" src="component/copyright.js"></script>
 
+	<!-- footer scripts -->
 	<script type="text/javascript" src="component/scripts.js"></script>
-	<script type="text/javascript" src="assets/noUiSlider-15.7.1/dist/nouislider.min.js"></script>
-	<script type="text/javascript">
-		var slider = document.getElementById('range');
-
-		noUiSlider.create(slider, {
-			start: [0, 65],
-			connect: true,
-			range: {
-				'min': 0,
-				'max': 100
-			}
-		});
-	</script>
 	
 </body>
 </html>
