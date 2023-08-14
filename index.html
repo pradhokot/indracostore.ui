@@ -9,10 +9,45 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>INDRACOSTORE &bull; UI Beranda</title>
 	<script type="text/javascript" src="component/head_links.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/noUiSlider-15.7.1/dist/nouislider.min.css">
 	<style type="text/css">
 		* {
 			/*outline: solid 1px green;*/
 			outline: solid 1px transparent;
+		}
+
+
+		/*================ custom range slider*/
+		.noUi-horizontal,
+		.noUi-connect {
+			height: 8px !important;
+		}
+
+		.noUi-target {
+			border-radius: 4px !important;
+			background-color: #b4b4b4 !important;
+			border: solid 0 transparent !important;
+		}
+
+		.noUi-handle {
+			top: -8px !important;
+			right: -12px !important;
+			width: 24px !important;
+			height: 24px !important;
+			border-radius: 12px !important;
+			background-color: #565656 !important;
+			cursor: pointer !important;
+			box-shadow: none !important;
+			border: solid 2px white !important;
+		}
+
+		.noUi-handle::before,
+		.noUi-handle::after {
+			display: none !important;
+		}
+
+		.noUi-connect {
+			background-color: #656565 !important;
 		}
 	</style>
 </head>
@@ -31,7 +66,7 @@
 					<button class="navbar-toggler rounded-0 border-0 d-lg-none">
 						<i class="bi bi-search"></i>
 					</button>
-					<div class="input-group border bg-white d-none d-lg-flex">
+					<div class="input-group border bg-white d-none d-lg-flex" style="max-width: 230px;">
 						<input type="search" class="form-control rounded-0 border-0 bg-transparent" name="" placeholder="Cari Produk">
 						<button class="btn">
 							<i class="bi bi-search"></i>
@@ -282,12 +317,12 @@
 										</h2>
 										<div id="accordion-collapse-harga" class="accordion-collapse collapse" data-bs-parent="#accordionFilter">
 											<div class="accordion-body px-0">
-												<div class="form-group">
-													<label for="priceRange" class="form-label d-flex justify-content-between align-items-center">
-														<span>Rp 0,-</span>
-														<span>Rp 100.000,-</span>
-													</label>
-													<input type="range" class="form-range" min="0" max="5" step="0.5" id="priceRange">
+												<p class="d-flex justify-content-between align-items-center flex-nowrap column-gap-3">
+													<span>Rp 0,-</span>
+													<span>Rp 123.000,-</span>
+												</p>
+												<div style="padding: 0 12px;">
+													<div id="range"></div>
 												</div>
 											</div>
 										</div>
@@ -304,11 +339,20 @@
 									#accordionFilter .accordion-button {
 										color: #565656 !important;
 										background-color: transparent !important;
+										background-image: linear-gradient(to right, #f2f2f2, transparent);
 										box-shadow: unset !important;
+										padding-left: .75rem !important;
+										transition: all .36s !important;
 									}
 
 									#accordionFilter .accordion-button.collapsed {
 										color: #878787 !important;
+										background-image: linear-gradient(to right, transparent, transparent);
+										padding-left: 0 !important;
+									}
+
+									#accordionFilter .accordion-button::after {
+										opacity: .5 !important;
 									}
 								</style>
 								
@@ -399,6 +443,19 @@
 	<script type="text/javascript" src="component/copyright.js"></script>
 
 	<script type="text/javascript" src="component/scripts.js"></script>
+	<script type="text/javascript" src="assets/noUiSlider-15.7.1/dist/nouislider.min.js"></script>
+	<script type="text/javascript">
+		var slider = document.getElementById('range');
+
+		noUiSlider.create(slider, {
+			start: [0, 65],
+			connect: true,
+			range: {
+				'min': 0,
+				'max': 100
+			}
+		});
+	</script>
 	
 </body>
 </html>
