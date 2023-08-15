@@ -56,26 +56,130 @@
 	</nav>
 
 	<!-- main menu -->
-	<nav id="mainMenu" class="bg-light sticky-top border-bottom border-secondary">
+	<!-- <nav id="mainMenu" class="bg-light sticky-top border-bottom border-secondary">
 		<div class="overflow-auto">
-			<ul class="nav justify-content-center text-capitalize flex-nowrap text-nowrap list-vr">
-				<li class="nav-item">
+			<ul class="nav justify-content-center text-capitalize flex-nowrap text-nowrap list-vr navtab">
+				<li class="nav-item navtab-item">
 					<a class="nav-link text-reset" href="#">
 						<h5 class="fs-reset m-0 lh-base">products</h5>
 					</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item navtab-item">
 					<a class="nav-link text-reset" href="#">
 						<h5 class="fs-reset m-0 lh-base">machine & equipment</h5>
 					</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item navtab-item">
 					<a class="nav-link text-reset text-uppercase" href="#">
 						<h5 class="fs-reset m-0 lh-base">promo</h5>
 					</a>
 				</li>
 			</ul>
 		</di>
+	</nav> -->
+	<nav id="mainMenu" class="bg-light sticky-top border-bottom border-secondary">
+		<div class="overflow-x-auto">
+			<ul class="nav text-uppercase flex-nowrap text-nowrap justify-content-sm-center py-1 py-lg-0">
+				<li class="nav-item">
+					<a class="nav-link" data-bs-toggle="collapse" href="#collapseProducts">
+						<h4 class="lh-reset fs-reset mb-0">products</h4>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-bs-toggle="collapse" href="#collapseME">
+						<h4 class="lh-reset fs-reset mb-0">machine & equipment</h4>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-bs-toggle="collapse" href="#collapsePromo">
+						<h4 class="lh-reset fs-reset mb-0">promo</h4>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="container">
+			<div class="collapse fade" id="collapseProducts" data-bs-parent="#mainMenu">
+				<div class="pt-3 pb-4">
+					<h5 class="fs-3 fw-medium">Products</h5>
+					<hr class="opacity-50">
+					<div class="row gx-lg-5">
+						<div class="col col-12 col-lg-auto border-end">
+							<ul class="nav flex-column text-capitalize" style="width: 100%; min-width: calc(175px + 1vw);">
+								<li class="nav-item">
+									<a class="nav-link px-0" href="#">
+										<h3 class="fs-reset lh-1 mb-0">supresso</h3>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link px-0" href="#">
+										<h3 class="fs-reset lh-1 mb-0">BaliCafé</h3>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link px-0" href="#">
+										<h3 class="fs-reset lh-1 mb-0">UCAFÉ</h3>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link px-0" href="#">
+										<h3 class="fs-reset lh-1 mb-0">rasa sayang</h3>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link px-0" href="#">
+										<h3 class="fs-reset lh-1 mb-0">tugu buaya</h3>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link px-0" href="#">
+										<h3 class="fs-reset lh-1 mb-0">uang emas</h3>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link px-0" href="#">
+										<h3 class="fs-reset lh-1 mb-0">hao cafe</h3>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link px-0" href="#">
+										<h3 class="fs-reset lh-1 mb-0">BROCHOCO</h3>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link px-0" href="#">
+										<h3 class="fs-reset lh-1 mb-0">jaheku</h3>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col col-12 col-lg d-none d-lg-block">
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates omnis aspernatur veritatis commodi voluptatum ipsam excepturi, ab voluptatibus beatae culpa nisi earum perspiciatis suscipit ullam eum reprehenderit enim nobis.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="collapse fade" id="collapseME" data-bs-parent="#mainMenu">
+				<div class="pt-3 pb-4">
+					<h5 class="fs-3 fw-medium">Machine & Equipment</h5>
+					<hr class="opacity-50">
+					<p>
+						Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Iusto officiis omnis earum officia magnam a, magni recusandae sint cum, perspiciatis deleniti, voluptates commodi cupiditate qui debitis rem soluta, aspernatur molestiae!
+					</p>
+				</div>
+			</div>
+			<div class="collapse fade" id="collapsePromo" data-bs-parent="#mainMenu">
+				<div class="pt-3 pb-4">
+					<h5 class="fs-3 fw-medium">Promo</h5>
+					<hr class="opacity-50">
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam id laboriosam earum obcaecati vitae. Hic molestias excepturi error dolore, ex eveniet sunt perspiciatis, pariatur aliquid quo assumenda adipisci! Vero, omnis.
+					</p>
+				</div>
+			</div>
+		</div>
 	</nav>
 
 	<!-- home banner -->
@@ -181,6 +285,13 @@
 
 	<!-- footer scripts -->
 	<script type="text/javascript" src="component/scripts.js"></script>
-	
+	<!-- <script type="text/javascript">
+		$(document).ready(function() {
+			$('#mainMenu .nav > .nav-item > .nav-link').hover(function() {
+				$(this).tab('show');
+			});
+		});
+	</script> -->
+
 </body>
 </html>
