@@ -7,8 +7,8 @@
 //   });
 // });
 
-$(document).ready(function() {
-  $('#mainMenu .nav > .nav-item > .nav-link').hover(function() {
-    $(this).tab('show');
-  });
-});
+// $(document).ready(function() {
+//   $('#mainMenu .nav > .nav-item > .nav-link').hover(function() {
+//     $(this).tab('show');
+//   });
+// });

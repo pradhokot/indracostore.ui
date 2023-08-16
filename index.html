@@ -104,63 +104,207 @@
 					<h5 class="fs-3 fw-medium">Products</h5>
 					<hr class="opacity-50">
 					<div class="row gx-lg-5">
-						<div class="col col-12 col-lg-auto border-end">
+						<div class="col col-12 col-lg-auto">
 							<ul class="nav flex-column text-capitalize" style="width: 100%; min-width: calc(175px + 1vw);">
 								<li class="nav-item">
-									<a class="nav-link px-0" href="#">
+									<a class="nav-link px-0 active" data-bs-target="#tabSupresso" href="https://www.supresso.com/id/public/" target="_blank">
 										<h3 class="fs-reset lh-1 mb-0">supresso</h3>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link px-0" href="#">
+									<a class="nav-link px-0" data-bs-target="#tabBalicafe">
 										<h3 class="fs-reset lh-1 mb-0">BaliCafé</h3>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link px-0" href="#">
+									<a class="nav-link px-0" data-bs-target="#tabUcafe">
 										<h3 class="fs-reset lh-1 mb-0">UCAFÉ</h3>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link px-0" href="#">
+									<a class="nav-link px-0" data-bs-target="#tabRS">
 										<h3 class="fs-reset lh-1 mb-0">rasa sayang</h3>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link px-0" href="#">
+									<a class="nav-link px-0" data-bs-target="#tabTB">
 										<h3 class="fs-reset lh-1 mb-0">tugu buaya</h3>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link px-0" href="#">
+									<a class="nav-link px-0" data-bs-target="#tabUE">
 										<h3 class="fs-reset lh-1 mb-0">uang emas</h3>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link px-0" href="#">
+									<a class="nav-link px-0" data-bs-target="#tabHC">
 										<h3 class="fs-reset lh-1 mb-0">hao cafe</h3>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link px-0" href="#">
+									<a class="nav-link px-0" data-bs-target="#tabBrochoco">
 										<h3 class="fs-reset lh-1 mb-0">BROCHOCO</h3>
 									</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link px-0" href="#">
+									<a class="nav-link px-0" data-bs-target="#tabJaheku">
 										<h3 class="fs-reset lh-1 mb-0">jaheku</h3>
 									</a>
 								</li>
 							</ul>
+							<style type="text/css">
+								#collapseProducts .nav-link {
+									position: relative;
+									cursor: pointer;
+								}
+
+								#collapseProducts .nav-link::before {
+									content: "\f285";
+									font-family: "bootstrap-icons";
+									position: absolute;
+									top: 50%;
+									left: 100%;
+									transform: translate(-100%, -50%);
+									color: inherit !important;
+									opacity: .5;
+								}
+							</style>
 						</div>
 						<div class="col col-12 col-lg d-none d-lg-block">
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates omnis aspernatur veritatis commodi voluptatum ipsam excepturi, ab voluptatibus beatae culpa nisi earum perspiciatis suscipit ullam eum reprehenderit enim nobis.
-							</p>
+							<div class="tab-content">
+
+								<div class="tab-pane fade show active" id="tabSupresso">
+									<div class="row gx-5">
+										<div class="col col-8">
+											<h4 class="text-capitalize fw-medium">supresso</h4>
+											<p>
+												Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates omnis aspernatur veritatis commodi voluptatum ipsam excepturi, ab voluptatibus beatae culpa nisi earum perspiciatis suscipit ullam eum reprehenderit enim nobis.
+											</p>
+										</div>
+										<div class="col col-4">
+											<div class="ratio ratio-1x1 bg-secondary rounded overflow-hidden"></div>
+										</div>
+									</div>
+								</div>
+
+								<div class="tab-pane fade" id="tabBalicafe">
+									<div class="row gx-5">
+										<div class="col col-8">
+											<h4 class="text-capitalize fw-medium">BaliCafé</h4>
+											<p>
+												Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates omnis aspernatur veritatis commodi voluptatum ipsam excepturi, ab voluptatibus beatae culpa nisi earum perspiciatis suscipit ullam eum reprehenderit enim nobis.
+											</p>
+										</div>
+										<div class="col col-4">
+											<div class="ratio ratio-1x1 bg-secondary rounded overflow-hidden"></div>
+										</div>
+									</div>
+								</div>
+
+								<div class="tab-pane fade" id="tabUcafe">
+									<div class="row gx-5">
+										<div class="col col-8">
+											<h4 class="text-capitalize fw-medium">UCAFÉ</h4>
+											<p>
+												Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates omnis aspernatur veritatis commodi voluptatum ipsam excepturi, ab voluptatibus beatae culpa nisi earum perspiciatis suscipit ullam eum reprehenderit enim nobis.
+											</p>
+										</div>
+										<div class="col col-4">
+											<div class="ratio ratio-1x1 bg-secondary rounded overflow-hidden"></div>
+										</div>
+									</div>
+								</div>
+
+								<div class="tab-pane fade" id="tabRS">
+									<div class="row gx-5">
+										<div class="col col-8">
+											<h4 class="text-capitalize fw-medium">rasa sayang</h4>
+											<p>
+												Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates omnis aspernatur veritatis commodi voluptatum ipsam excepturi, ab voluptatibus beatae culpa nisi earum perspiciatis suscipit ullam eum reprehenderit enim nobis.
+											</p>
+										</div>
+										<div class="col col-4">
+											<div class="ratio ratio-1x1 bg-secondary rounded overflow-hidden"></div>
+										</div>
+									</div>
+								</div>
+
+								<div class="tab-pane fade" id="tabTB">
+									<div class="row gx-5">
+										<div class="col col-8">
+											<h4 class="text-capitalize fw-medium">tugu buaya</h4>
+											<p>
+												Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates omnis aspernatur veritatis commodi voluptatum ipsam excepturi, ab voluptatibus beatae culpa nisi earum perspiciatis suscipit ullam eum reprehenderit enim nobis.
+											</p>
+										</div>
+										<div class="col col-4">
+											<div class="ratio ratio-1x1 bg-secondary rounded overflow-hidden"></div>
+										</div>
+									</div>
+								</div>
+
+								<div class="tab-pane fade" id="tabUE">
+									<div class="row gx-5">
+										<div class="col col-8">
+											<h4 class="text-capitalize fw-medium">uang emas</h4>
+											<p>
+												Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates omnis aspernatur veritatis commodi voluptatum ipsam excepturi, ab voluptatibus beatae culpa nisi earum perspiciatis suscipit ullam eum reprehenderit enim nobis.
+											</p>
+										</div>
+										<div class="col col-4">
+											<div class="ratio ratio-1x1 bg-secondary rounded overflow-hidden"></div>
+										</div>
+									</div>
+								</div>
+
+								<div class="tab-pane fade" id="tabHC">
+									<div class="row gx-5">
+										<div class="col col-8">
+											<h4 class="text-capitalize fw-medium">hao cafe</h4>
+											<p>
+												Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates omnis aspernatur veritatis commodi voluptatum ipsam excepturi, ab voluptatibus beatae culpa nisi earum perspiciatis suscipit ullam eum reprehenderit enim nobis.
+											</p>
+										</div>
+										<div class="col col-4">
+											<div class="ratio ratio-1x1 bg-secondary rounded overflow-hidden"></div>
+										</div>
+									</div>
+								</div>
+
+								<div class="tab-pane fade" id="tabBrochoco">
+									<div class="row gx-5">
+										<div class="col col-8">
+											<h4 class="text-capitalize fw-medium">BROCHOCO</h4>
+											<p>
+												Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates omnis aspernatur veritatis commodi voluptatum ipsam excepturi, ab voluptatibus beatae culpa nisi earum perspiciatis suscipit ullam eum reprehenderit enim nobis.
+											</p>
+										</div>
+										<div class="col col-4">
+											<div class="ratio ratio-1x1 bg-secondary rounded overflow-hidden"></div>
+										</div>
+									</div>
+								</div>
+
+								<div class="tab-pane fade" id="tabJaheku">
+									<div class="row gx-5">
+										<div class="col col-8">
+											<h4 class="text-capitalize fw-medium">jaheku</h4>
+											<p>
+												Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates omnis aspernatur veritatis commodi voluptatum ipsam excepturi, ab voluptatibus beatae culpa nisi earum perspiciatis suscipit ullam eum reprehenderit enim nobis.
+											</p>
+										</div>
+										<div class="col col-4">
+											<div class="ratio ratio-1x1 bg-secondary rounded overflow-hidden"></div>
+										</div>
+									</div>
+								</div>
+
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+
 			<div class="collapse fade" id="collapseME" data-bs-parent="#mainMenu">
 				<div class="pt-3 pb-4">
 					<h5 class="fs-3 fw-medium">Machine & Equipment</h5>
@@ -170,13 +314,33 @@
 					</p>
 				</div>
 			</div>
+
 			<div class="collapse fade" id="collapsePromo" data-bs-parent="#mainMenu">
 				<div class="pt-3 pb-4">
 					<h5 class="fs-3 fw-medium">Promo</h5>
 					<hr class="opacity-50">
-					<p>
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam id laboriosam earum obcaecati vitae. Hic molestias excepturi error dolore, ex eveniet sunt perspiciatis, pariatur aliquid quo assumenda adipisci! Vero, omnis.
-					</p>
+					<div class="overflow-x-auto">
+						<div class="hstack gap-3">
+							<a class="text-decoration-none text-reset" href="#">
+								<div class="ratio ratio-4x3 bg-secondary rounded" style="min-width: 210px;"></div>
+							</a>
+							<a class="text-decoration-none text-reset" href="#">
+								<div class="ratio ratio-4x3 bg-secondary rounded" style="min-width: 210px;"></div>
+							</a>
+							<a class="text-decoration-none text-reset" href="#">
+								<div class="ratio ratio-4x3 bg-secondary rounded" style="min-width: 210px;"></div>
+							</a>
+							<a class="text-decoration-none text-reset" href="#">
+								<div class="ratio ratio-4x3 bg-secondary rounded" style="min-width: 210px;"></div>
+							</a>
+							<a class="text-decoration-none text-reset" href="#">
+								<div class="ratio ratio-4x3 bg-secondary rounded" style="min-width: 210px;"></div>
+							</a>
+							<a class="text-decoration-none text-reset" href="#">
+								<div class="ratio ratio-4x3 bg-secondary rounded" style="min-width: 210px;"></div>
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -285,13 +449,13 @@
 
 	<!-- footer scripts -->
 	<script type="text/javascript" src="component/scripts.js"></script>
-	<!-- <script type="text/javascript">
+	<script type="text/javascript">
 		$(document).ready(function() {
-			$('#mainMenu .nav > .nav-item > .nav-link').hover(function() {
+			$('#collapseProducts .nav > .nav-item > .nav-link').hover(function() {
 				$(this).tab('show');
 			});
 		});
-	</script> -->
+	</script>
 
 </body>
 </html>
