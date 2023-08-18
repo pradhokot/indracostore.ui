@@ -3,13 +3,13 @@ document.write(`
 	    <div class="overflow-x-auto">
 	        <ul id="mainMenuBar" class="nav text-uppercase flex-nowrap text-nowrap justify-content-sm-center py-1 py-lg-0">
 	            <li class="nav-item">
-	                <a class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseProducts" href="https://indracostore.com/">
-	                    <h4 class="lh-reset fs-reset mb-0">products</h4>
+	                <a class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseProduk" href="https://indracostore.com/">
+	                    <h4 class="lh-reset fs-reset mb-0">produk</h4>
 	                </a>
 	            </li>
 	            <li class="nav-item">
-	                <a class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseME" href="#">
-	                    <h4 class="lh-reset fs-reset mb-0">machine & equipment</h4>
+	                <a class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseMesin" href="#">
+	                    <h4 class="lh-reset fs-reset mb-0">mesin & peralatan</h4>
 	                </a>
 	            </li>
 	            <li class="nav-item">
@@ -21,7 +21,7 @@ document.write(`
 	    </div>
 
 	    <div class="container">
-	        <div class="collapse fade" id="collapseProducts" data-bs-parent="#mainMenu">
+	        <div class="collapse fade" id="collapseProduk" data-bs-parent="#mainMenu">
 	            <div class="pt-3 pb-4">
 	                <h5 class="fs-3 fw-medium">Products</h5>
 	                <hr class="opacity-50">
@@ -193,7 +193,7 @@ document.write(`
 	            </div>
 	        </div>
 
-	        <div class="collapse fade" id="collapseME" data-bs-parent="#mainMenu">
+	        <div class="collapse fade" id="collapseMesin" data-bs-parent="#mainMenu">
 	            <div class="pt-3 pb-4">
 	                <h5 class="fs-3 fw-medium">Machine & Equipment</h5>
 	                <hr class="opacity-50">

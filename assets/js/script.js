@@ -1,10 +1,10 @@
 $(document).ready(function() {
-    $('#collapseProducts .nav > .nav-item > .nav-link').hover(function() {
+    $('#collapseProduk .nav > .nav-item > .nav-link').hover(function() {
         $(this).tab('show');
     });
 
     $('#mainMenu').mouseenter(function() {
-        $('#collapseProducts').collapse('show');
+        $('#collapseProduk').collapse('show');
     });
 
     $('#mainMenu').mouseleave(function() {
