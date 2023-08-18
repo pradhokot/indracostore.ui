@@ -18,55 +18,6 @@ document.write(`
 	                </a>
 	            </li>
 	        </ul>
-	        <style type="text/css">
-	            #mainMenuBar > li {
-	                position: relative;
-	            }
-
-	            #mainMenuBar > li::before {
-	                content: '';
-	                width: 1px;
-	                height: 56%;
-	                position: absolute;
-	                top: 50%;
-	                left: 100%;
-	                transform: translate(-50%, -50%);
-	                background-color: rgba(0, 0, 0, .25);
-	            }
-
-	            #mainMenuBar > li:last-of-type::before {
-	                background-color: rgba(0, 0, 0, 0);
-	            }
-
-	            #mainMenuBar > li > a {
-	                color: inherit;
-	                opacity: 1;
-	                font-family: 'HelveticaNeue Medium';
-	                font-weight: 500;
-	                position: relative;
-	            }
-
-	            #mainMenuBar > li > a.collapsed {
-	                opacity: .65;
-	                font-family: 'HelveticaNeue';
-	                font-weight: 400;
-	            }
-
-	            #mainMenuBar > li > a::before {
-	                content: '';
-	                width: calc(100% - 2rem);
-	                height: 3px;
-	                background-color: rgba(0, 0, 0, .875);
-	                position: absolute;
-	                top: 100%;
-	                left: 50%;
-	                transform: translate(-50%, -100%);
-	            }
-
-	            #mainMenuBar > li > a.collapsed::before {
-	                background-color: rgba(0, 0, 0, 0);
-	            }
-	        </style>
 	    </div>
 
 	    <div class="container">
@@ -76,7 +27,7 @@ document.write(`
 	                <hr class="opacity-50">
 	                <div class="row gx-lg-5">
 	                    <div class="col col-12 col-lg-auto">
-	                        <ul class="nav flex-column text-capitalize" style="width: 100%; min-width: calc(175px + 1vw);">
+	                        <ul id="sidemenu-product" class="nav flex-column text-capitalize" style="width: 100%; min-width: calc(175px + 1vw);">
 	                            <li class="nav-item">
 	                                <a class="nav-link px-0 active" data-bs-target="#tabSupresso" href="https://www.supresso.com/id/public/" target="_blank">
 	                                    <h3 class="fs-reset lh-1 mb-0">supresso</h3>
@@ -123,151 +74,117 @@ document.write(`
 	                                </a>
 	                            </li>
 	                        </ul>
-	                        <style type="text/css">
-	                            #collapseProducts .nav-link {
-	                                position: relative;
-	                                cursor: pointer;
-	                            }
-
-	                            #collapseProducts .nav-link::before {
-	                                content: "\f285";
-	                                font-family: "bootstrap-icons";
-	                                position: absolute;
-	                                top: 50%;
-	                                left: 100%;
-	                                transform: translate(-100%, -50%);
-	                                color: inherit !important;
-	                                opacity: .5;
-	                            }
-	                        </style>
 	                    </div>
+	                    <div class="col col-auto d-none d-lg-block"><div class="h-100 vr" style="background-color: rgba(0,0,0,.75);"></div></div>
 	                    <div class="col col-12 col-lg d-none d-lg-block">
 	                        <div class="tab-content">
 
 	                            <div class="tab-pane fade show active" id="tabSupresso">
-	                                <div class="row gx-5">
-	                                    <div class="col col-8">
-	                                        <h4 class="text-capitalize fw-medium">supresso</h4>
-	                                        <p>
-	                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates omnis aspernatur veritatis commodi voluptatum ipsam excepturi, ab voluptatibus beatae culpa nisi earum perspiciatis suscipit ullam eum reprehenderit enim nobis.
-	                                        </p>
-	                                    </div>
-	                                    <div class="col col-4">
-	                                        <div class="ratio ratio-1x1 bg-secondary rounded overflow-hidden"></div>
-	                                    </div>
-	                                </div>
+	                            	<div class="hstack gap-5 align-items-start">
+		                            	<div>
+			                            	<img src="assets/img/logo/logosupresso.png" width="auto" height="100" class="mb-4">
+			                            	<p>
+				                            	Dengan biji-biji kopi yang berasal dari timur hingga barat Indonesia, koleksi kopi single-origin Supresso menghasilkan profil rasa yang premium, mewah sekaligus unik. Dengan sepenuh hati, kami fokus menyajikan kopi kualitas tinggi untuk penikmat kopi di seluruh dunia dalam bentuk biji, bubuk, drip, dan kapsul. Nikmati pengalaman kopi Indonesia dalam kualitas dan kemurniannya, bersama Supresso. 
+			                            	</p>
+		                            	</div>
+		                            	<img src="assets/img/navbar/supresso.jpg" width="288" height="auto">
+	                            	</div>
 	                            </div>
 
 	                            <div class="tab-pane fade" id="tabBalicafe">
-	                                <div class="row gx-5">
-	                                    <div class="col col-8">
-	                                        <h4 class="text-capitalize fw-medium">BaliCafé</h4>
-	                                        <p>
-	                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates omnis aspernatur veritatis commodi voluptatum ipsam excepturi, ab voluptatibus beatae culpa nisi earum perspiciatis suscipit ullam eum reprehenderit enim nobis.
-	                                        </p>
-	                                    </div>
-	                                    <div class="col col-4">
-	                                        <div class="ratio ratio-1x1 bg-secondary rounded overflow-hidden"></div>
-	                                    </div>
-	                                </div>
+	                                <div class="hstack gap-5 align-items-start">
+		                            	<div>
+			                            	<img src="assets/img/logo/logobalicafe.png" width="auto" height="100" class="mb-4">
+			                            	<p>
+			                            		Diracik dari kopi Bali asli, nikmati hasil kreasi Balicafé kami, dan menyatulah dengan tradisi kopi pulau Bali yang magis.
+			                            	</p>
+		                            	</div>
+		                            	<img src="assets/img/navbar/balicafe.jpg" width="288" height="auto">
+	                            	</div>
 	                            </div>
 
 	                            <div class="tab-pane fade" id="tabUcafe">
-	                                <div class="row gx-5">
-	                                    <div class="col col-8">
-	                                        <h4 class="text-capitalize fw-medium">UCAFÉ</h4>
-	                                        <p>
-	                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates omnis aspernatur veritatis commodi voluptatum ipsam excepturi, ab voluptatibus beatae culpa nisi earum perspiciatis suscipit ullam eum reprehenderit enim nobis.
-	                                        </p>
-	                                    </div>
-	                                    <div class="col col-4">
-	                                        <div class="ratio ratio-1x1 bg-secondary rounded overflow-hidden"></div>
-	                                    </div>
-	                                </div>
+	                                <div class="hstack gap-5 align-items-start">
+		                            	<div>
+			                            	<img src="assets/img/logo/logoucafe.png" width="auto" height="100" class="mb-4">
+			                            	<p>
+				                            	Dengan biji-biji kopi yang berasal dari timur hingga barat Indonesia, koleksi kopi single-origin Supresso menghasilkan profil rasa yang premium, mewah sekaligus unik. Dengan sepenuh hati, kami fokus menyajikan kopi kualitas tinggi untuk penikmat kopi di seluruh dunia dalam bentuk biji, bubuk, drip, dan kapsul. Nikmati pengalaman kopi Indonesia dalam kualitas dan kemurniannya, bersama Supresso. 
+			                            	</p>
+		                            	</div>
+		                            	<img src="assets/img/navbar/ucafe.jpg" width="288" height="auto">
+	                            	</div>
 	                            </div>
 
 	                            <div class="tab-pane fade" id="tabRS">
-	                                <div class="row gx-5">
-	                                    <div class="col col-8">
-	                                        <h4 class="text-capitalize fw-medium">rasa sayang</h4>
-	                                        <p>
-	                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates omnis aspernatur veritatis commodi voluptatum ipsam excepturi, ab voluptatibus beatae culpa nisi earum perspiciatis suscipit ullam eum reprehenderit enim nobis.
-	                                        </p>
-	                                    </div>
-	                                    <div class="col col-4">
-	                                        <div class="ratio ratio-1x1 bg-secondary rounded overflow-hidden"></div>
-	                                    </div>
-	                                </div>
+	                                <div class="hstack gap-5 align-items-start">
+		                            	<div>
+			                            	<img src="assets/img/logo/logors.png" width="auto" height="100" class="mb-4">
+			                            	<p>
+				                            	Rasa sayang eh, Rasa sayang sayang eh ~ Diracik pada 1984 dengan rasa dan aroma nostalgia, Rasa sayang membawa penghormatan bagi kopi di masa lalu, sekaligus memupuk rasa nostalgia yang semakin hangat dengan teknik presisi yang lebih baru.
+			                            	</p>
+		                            	</div>
+		                            	<img src="assets/img/navbar/rasa_sayang.jpg" width="288" height="auto">
+	                            	</div>
 	                            </div>
 
 	                            <div class="tab-pane fade" id="tabTB">
-	                                <div class="row gx-5">
-	                                    <div class="col col-8">
-	                                        <h4 class="text-capitalize fw-medium">tugu buaya</h4>
-	                                        <p>
-	                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates omnis aspernatur veritatis commodi voluptatum ipsam excepturi, ab voluptatibus beatae culpa nisi earum perspiciatis suscipit ullam eum reprehenderit enim nobis.
-	                                        </p>
-	                                    </div>
-	                                    <div class="col col-4">
-	                                        <div class="ratio ratio-1x1 bg-secondary rounded overflow-hidden"></div>
-	                                    </div>
-	                                </div>
+	                                <div class="hstack gap-5 align-items-start">
+		                            	<div>
+			                            	<img src="assets/img/logo/logotb.png" width="auto" height="100" class="mb-4">
+			                            	<p>
+				                            	Bercita rasa kuat serta tekstur tegas. Dikembangkan sejak 1977, Tugu Buaya memiliki rasa yang unik dengan karakter kopi yang diterima semua orang. 
+			                            	</p>
+		                            	</div>
+		                            	<img src="assets/img/navbar/tugu_buaya.jpg" width="288" height="auto">
+	                            	</div>
 	                            </div>
 
 	                            <div class="tab-pane fade" id="tabUE">
-	                                <div class="row gx-5">
-	                                    <div class="col col-8">
-	                                        <h4 class="text-capitalize fw-medium">uang emas</h4>
-	                                        <p>
-	                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates omnis aspernatur veritatis commodi voluptatum ipsam excepturi, ab voluptatibus beatae culpa nisi earum perspiciatis suscipit ullam eum reprehenderit enim nobis.
-	                                        </p>
-	                                    </div>
-	                                    <div class="col col-4">
-	                                        <div class="ratio ratio-1x1 bg-secondary rounded overflow-hidden"></div>
-	                                    </div>
-	                                </div>
+	                                <div class="hstack gap-5 align-items-start">
+		                            	<div>
+			                            	<img src="assets/img/logo/logoue.png" width="auto" height="100" class="mb-4">
+			                            	<p>
+				                            	Dibuat dari biji kopi pilihan, cobalah kopi asli dengan paduan metode pengolahan tradisional dan modern ini. Dari kreasi kopi hitam yang sesungguhnya, temukan nuansa kontemporer yang tiada duanya. 
+			                            	</p>
+		                            	</div>
+		                            	<img src="assets/img/navbar/uang_emas.jpg" width="288" height="auto">
+	                            	</div>
 	                            </div>
 
 	                            <div class="tab-pane fade" id="tabHC">
-	                                <div class="row gx-5">
-	                                    <div class="col col-8">
-	                                        <h4 class="text-capitalize fw-medium">hao cafe</h4>
-	                                        <p>
-	                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates omnis aspernatur veritatis commodi voluptatum ipsam excepturi, ab voluptatibus beatae culpa nisi earum perspiciatis suscipit ullam eum reprehenderit enim nobis.
-	                                        </p>
-	                                    </div>
-	                                    <div class="col col-4">
-	                                        <div class="ratio ratio-1x1 bg-secondary rounded overflow-hidden"></div>
-	                                    </div>
-	                                </div>
+	                                <div class="hstack gap-5 align-items-start">
+		                            	<div>
+			                            	<img src="assets/img/logo/logohao.png" width="auto" height="100" class="mb-4">
+			                            	<p>
+				                            	Dibuat dari biji kopi pilihan, cobalah kopi asli dengan paduan metode pengolahan tradisional dan modern ini. Dari kreasi kopi hitam yang sesungguhnya, temukan nuansa kontemporer yang tiada duanya. 
+			                            	</p>
+		                            	</div>
+		                            	<img src="assets/img/navbar/haocafe.jpg" width="288" height="auto">
+	                            	</div>
 	                            </div>
 
 	                            <div class="tab-pane fade" id="tabBrochoco">
-	                                <div class="row gx-5">
-	                                    <div class="col col-8">
-	                                        <h4 class="text-capitalize fw-medium">BROCHOCO</h4>
-	                                        <p>
-	                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates omnis aspernatur veritatis commodi voluptatum ipsam excepturi, ab voluptatibus beatae culpa nisi earum perspiciatis suscipit ullam eum reprehenderit enim nobis.
-	                                        </p>
-	                                    </div>
-	                                    <div class="col col-4">
-	                                        <div class="ratio ratio-1x1 bg-secondary rounded overflow-hidden"></div>
-	                                    </div>
-	                                </div>
+	                                <div class="hstack gap-5 align-items-start">
+		                            	<div>
+			                            	<img src="assets/img/logo/logobro.png" width="auto" height="100" class="mb-4">
+			                            	<p>
+				                            	Mau minuman cokelat dengan berbagai rasa pilihan? BROCHOCO jawabannya! Isi hari-harimu dengan BROCHOCO, dengan rasa Original juga Choco Banana. Nikmati beragam rasa manisnya cokelat dan lembutnya krim, berpadu seimbang dalam cita rasa yang menggoda. Favorit semua kalangan dan selalu jadi pilihan, dengan berbagai kreasi penyajian yang lezat. 
+			                            	</p>
+		                            	</div>
+		                            	<img src="assets/img/navbar/brochoco.jpg" width="288" height="auto">
+	                            	</div>
 	                            </div>
 
 	                            <div class="tab-pane fade" id="tabJaheku">
-	                                <div class="row gx-5">
-	                                    <div class="col col-8">
-	                                        <h4 class="text-capitalize fw-medium">jaheku</h4>
-	                                        <p>
-	                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates omnis aspernatur veritatis commodi voluptatum ipsam excepturi, ab voluptatibus beatae culpa nisi earum perspiciatis suscipit ullam eum reprehenderit enim nobis.
-	                                        </p>
-	                                    </div>
-	                                    <div class="col col-4">
-	                                        <div class="ratio ratio-1x1 bg-secondary rounded overflow-hidden"></div>
-	                                    </div>
-	                                </div>
+	                                <div class="hstack gap-5 align-items-start">
+		                            	<div>
+			                            	<img src="assets/img/logo/logojaheku.png" width="auto" height="100" class="mb-4">
+			                            	<p>
+				                            	Jaheku / definisi / “Jahe kesukaanku” dalam bahasa Indonesia. Merupakan bahan pangan yang familiar di banyak negara, Jaheku menyajikan segala manfaat dan kesegaran jahe kepada konsumen dalam bentuk minuman, dengan kombinasi rasa Jaheku Gula Aren, dan juga Jaheku Madu, memantapkan berbagai manfaat serta rasa unik jahe yang selalu disukai. 
+			                            	</p>
+		                            	</div>
+		                            	<img src="assets/img/navbar/jaheku.jpg" width="288" height="auto">
+	                            	</div>
 	                            </div>
 
 	                        </div>
