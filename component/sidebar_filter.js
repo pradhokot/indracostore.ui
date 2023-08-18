@@ -19,23 +19,68 @@ document.write(`
 					</h2>
 					<div id="accordion-collapse-kategori" class="accordion-collapse collapse show" data-bs-parent="#accordionFilter">
 						<div class="accordion-body px-0">
-							<div class="form-check">
-								<input class="form-check-input rounded-circle" type="checkbox" value="" id="kategoriKopi">
-								<label class="form-check-label btn w-100 text-start rounded-0" for="kategoriKopi">
-									kopi
-								</label>
+							<div>
+								<div class="form-check">
+									<input class="form-check-input rounded-circle" type="checkbox" value="" id="kategoriKopi">
+									<label class="form-check-label btn w-100 text-start rounded-0" for="kategoriKopi">
+										kopi
+									</label>
+
+								</div>
+								<div class="ps-4 pb-2">
+									<div class="form-check">
+										<input class="form-check-input rounded-circle" type="checkbox" value="" id="kopiBubuk">
+										<label class="form-check-label btn w-100 text-start rounded-0" for="kopiBubuk">
+											kopi bubuk
+										</label>
+									</div>
+									<div class="form-check">
+										<input class="form-check-input rounded-circle" type="checkbox" value="" id="kopi2in1">
+										<label class="form-check-label btn w-100 text-start rounded-0" for="kopi2in1">
+											kopi 2 in 1
+										</label>
+									</div>
+									<div class="form-check">
+										<input class="form-check-input rounded-circle" type="checkbox" value="" id="kopi3in1">
+										<label class="form-check-label btn w-100 text-start rounded-0" for="kopi3in1">
+											kopi 3 in 1
+										</label>
+									</div>
+									<div class="form-check">
+										<input class="form-check-input rounded-circle" type="checkbox" value="" id="kopiInstan">
+										<label class="form-check-label btn w-100 text-start rounded-0" for="kopiInstan">
+											kopi instan
+										</label>
+									</div>
+								</div>
 							</div>
 							<div class="form-check">
-								<input class="form-check-input rounded-circle" type="checkbox" value="" id="kategoriJahe">
-								<label class="form-check-label btn w-100 text-start rounded-0" for="kategoriJahe">
-									jahe
+								<input class="form-check-input rounded-circle" type="checkbox" value="" id="kategoriMesin">
+								<label class="form-check-label btn w-100 text-start rounded-0" for="kategoriMesin">
+									mesin
 								</label>
 							</div>
-							<div class="form-check">
-								<input class="form-check-input rounded-circle" type="checkbox" value="" id="kategoriCokelat">
-								<label class="form-check-label btn w-100 text-start rounded-0" for="kategoriCokelat">
-									cokelat
-								</label>
+							<div>
+								<div class="form-check">
+									<input class="form-check-input rounded-circle" type="checkbox" value="" id="kategoriMinuman">
+									<label class="form-check-label btn w-100 text-start rounded-0" for="kategoriMinuman">
+										minuman
+									</label>
+								</div>
+								<div class="ps-4">
+									<div class="form-check">
+										<input class="form-check-input rounded-circle" type="checkbox" value="" id="minumanJahe">
+										<label class="form-check-label btn w-100 text-start rounded-0" for="minumanJahe">
+											jahe
+										</label>
+									</div>
+									<div class="form-check">
+										<input class="form-check-input rounded-circle" type="checkbox" value="" id="minumanCokelat">
+										<label class="form-check-label btn w-100 text-start rounded-0" for="minumanCokelat">
+											cokelat
+										</label>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
