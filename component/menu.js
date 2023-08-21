@@ -1,5 +1,6 @@
 document.write(`
 	<nav id="mainMenu" class="bg-light sticky-top border-bottom border-secondary">
+
 	    <div class="overflow-x-auto">
 	        <ul id="mainMenuBar" class="nav text-uppercase flex-nowrap text-nowrap justify-content-sm-center py-1 py-lg-0">
 	            <li class="nav-item">
@@ -18,9 +19,16 @@ document.write(`
 	                </a>
 	            </li>
 	        </ul>
+	        <style>
+		        #mainMenuBar .nav-link {
+		        	cursor: pointer;
+		        }
+	        </style>
 	    </div>
 
 	    <div class="container">
+
+	    	<!-- Collapse Produk -->
 	        <div class="collapse fade" id="collapseProduk" data-bs-parent="#mainMenu">
 	            <div class="pt-3 pb-4">
 	                <h5 class="fs-3 fw-medium">Products</h5>
@@ -193,6 +201,7 @@ document.write(`
 	            </div>
 	        </div>
 
+	        <!-- Collapse Mesin & Equipment -->
 	        <div class="collapse fade" id="collapseMesin" data-bs-parent="#mainMenu">
 	            <div class="pt-3 pb-4">
 	                <h5 class="fs-3 fw-medium">Machine & Equipment</h5>
@@ -203,34 +212,92 @@ document.write(`
 	            </div>
 	        </div>
 
+	        <!-- Collapse Promo -->
 	        <div class="collapse fade" id="collapsePromo" data-bs-parent="#mainMenu">
 	            <div class="pt-3 pb-4">
 	                <h5 class="fs-3 fw-medium">Promo</h5>
 	                <hr class="opacity-50">
-	                <div class="overflow-x-auto">
-	                    <div class="hstack gap-3">
-	                        <a class="text-decoration-none text-reset" href="#">
-	                            <div class="ratio ratio-4x3 bg-secondary rounded" style="min-width: 210px;"></div>
-	                        </a>
-	                        <a class="text-decoration-none text-reset" href="#">
-	                            <div class="ratio ratio-4x3 bg-secondary rounded" style="min-width: 210px;"></div>
-	                        </a>
-	                        <a class="text-decoration-none text-reset" href="#">
-	                            <div class="ratio ratio-4x3 bg-secondary rounded" style="min-width: 210px;"></div>
-	                        </a>
-	                        <a class="text-decoration-none text-reset" href="#">
-	                            <div class="ratio ratio-4x3 bg-secondary rounded" style="min-width: 210px;"></div>
-	                        </a>
-	                        <a class="text-decoration-none text-reset" href="#">
-	                            <div class="ratio ratio-4x3 bg-secondary rounded" style="min-width: 210px;"></div>
-	                        </a>
-	                        <a class="text-decoration-none text-reset" href="#">
-	                            <div class="ratio ratio-4x3 bg-secondary rounded" style="min-width: 210px;"></div>
-	                        </a>
-	                    </div>
+	                <div class="swiper swiper-promo" id="swiperPromo">
+	                	<div class="swiper-wrapper promo-list">
+
+	                		<div class="swiper-slide">
+	                			<figure class="figure">
+	                				<div class="figure-img ratio ratio-16x9 bg-secondary rounded-0 mb-3"></div>
+	                				<figcaption class="figure-caption fs-5 fw-medium lh-1 mb-2">GRATIS Gelas Tangkai</figcaption>
+	                				<figcaption class="figure-caption small">
+		                				With coffee beans sourced from the East to the West of Indonesia
+	                				</figcaption>
+	                			</figure>
+	                		</div>
+
+	                		<div class="swiper-slide">
+	                			<figure class="figure">
+	                				<div class="figure-img ratio ratio-16x9 bg-secondary rounded-0 mb-3"></div>
+	                				<figcaption class="figure-caption fs-5 fw-medium lh-1 mb-2">GRATIS Gelas Tangkai</figcaption>
+	                				<figcaption class="figure-caption small">
+		                				With coffee beans sourced from the East to the West of Indonesia
+	                				</figcaption>
+	                			</figure>
+	                		</div>
+
+	                		<div class="swiper-slide">
+	                			<figure class="figure">
+	                				<div class="figure-img ratio ratio-16x9 bg-secondary rounded-0 mb-3"></div>
+	                				<figcaption class="figure-caption fs-5 fw-medium lh-1 mb-2">GRATIS Gelas Tangkai</figcaption>
+	                				<figcaption class="figure-caption small">
+		                				With coffee beans sourced from the East to the West of Indonesia
+	                				</figcaption>
+	                			</figure>
+	                		</div>
+
+	                		<div class="swiper-slide">
+	                			<figure class="figure">
+	                				<div class="figure-img ratio ratio-16x9 bg-secondary rounded-0 mb-3"></div>
+	                				<figcaption class="figure-caption fs-5 fw-medium lh-1 mb-2">GRATIS Gelas Tangkai</figcaption>
+	                				<figcaption class="figure-caption small">
+		                				With coffee beans sourced from the East to the West of Indonesia
+	                				</figcaption>
+	                			</figure>
+	                		</div>
+
+	                		<div class="swiper-slide">
+	                			<figure class="figure">
+	                				<div class="figure-img ratio ratio-16x9 bg-secondary rounded-0 mb-3"></div>
+	                				<figcaption class="figure-caption fs-5 fw-medium lh-1 mb-2">GRATIS Gelas Tangkai</figcaption>
+	                				<figcaption class="figure-caption small">
+		                				With coffee beans sourced from the East to the West of Indonesia
+	                				</figcaption>
+	                			</figure>
+	                		</div>
+
+	                		<div class="swiper-slide">
+	                			<figure class="figure">
+	                				<div class="figure-img ratio ratio-16x9 bg-secondary rounded-0 mb-3"></div>
+	                				<figcaption class="figure-caption fs-5 fw-medium lh-1 mb-2">GRATIS Gelas Tangkai</figcaption>
+	                				<figcaption class="figure-caption small">
+		                				With coffee beans sourced from the East to the West of Indonesia
+	                				</figcaption>
+	                			</figure>
+	                		</div>
+
+	                	</div>
+	                	<div class="swiper-button swiper-button-prev text-reset"></div>
+	                    <div class="swiper-button swiper-button-next text-reset"></div>
+	                    <style>
+		                    #swiperPromo .swiper-slide {
+		                    	width: 320px;
+		                    }
+
+	                    	#swiperPromo .swiper-button {
+	                    		background-color: rgba(255, 255, 255, .25);
+	                    		top: 90px;
+	                    	}
+	                    </style>
 	                </div>
 	            </div>
 	        </div>
+
 	    </div>
+
 	</nav>
 	`)
