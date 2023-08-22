@@ -102,6 +102,26 @@ ul.list-vr li:last-of-type::before {
     column-gap: .5rem;
 }
 
+/*card produk stok habis*/
+.card-produk.stok-habis > a,
+.card-produk.stok-habis .card-footer > .btn {
+    pointer-events: none;
+}
+
+.card-produk .wording-stok-habis {
+    display: none;
+}
+
+.card-produk.stok-habis .wording-stok-habis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-produk.stok-habis .card-footer {
+    height: 5px !important;
+}
+
 
 /*============================ custom checkbox & radios*/
 .form-check {

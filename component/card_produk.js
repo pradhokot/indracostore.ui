@@ -1,7 +1,10 @@
 document.write(`
-	<div class="card card-produk rounded-0 border-0 text-reset text-center h-100">
+	<div class="card card-produk rounded-0 border-0 text-reset text-center h-100 stok-habis">
 	    <a class="text-decoration-none text-reset d-inline bg-light" href="#" style="flex-grow: 0;">
 	        <div class="ratio ratio-1x1">
+	        	<div class="wording-stok-habis top-50 start-50 translate-middle" style="background-color: #f2f2f2c5; z-index: 100;">
+	        		<h5 class="fw-medium text-center fs-4">STOK <br class="d-lg-none"> HABIS</h5>
+	        	</div>
 	        	<div class="top-50 start-50 translate-middle d-flex justify-content-center align-items-center z-3">
 		        	<div class="spinner-border text-dark" role="status"></div>
 	        	</div>

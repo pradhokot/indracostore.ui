@@ -216,63 +216,123 @@ document.write(`
 	                	<div class="swiper-wrapper promo-list">
 
 	                		<div class="swiper-slide">
-	                			<figure class="figure">
-	                				<div class="figure-img ratio ratio-16x9 bg-secondary rounded-0 mb-3"></div>
-	                				<figcaption class="figure-caption fs-5 fw-medium lh-1 mb-2">GRATIS Gelas Tangkai</figcaption>
-	                				<figcaption class="figure-caption small">
-		                				With coffee beans sourced from the East to the West of Indonesia
-	                				</figcaption>
-	                			</figure>
+	                			<a class="text-reset text-decoration-none" href="#">
+		                			<figure class="figure">
+		                				<div class="figure-img ratio ratio-16x9 bg-secondary rounded-0 overflow-hidden mb-3">
+		                					<div class="top-50 start-50 translate-middle d-flex justify-content-center align-items-center z-3">
+									        	<div class="spinner-border text-dark" role="status"></div>
+								        	</div>
+								        	<!--
+		                					<img src="assets/img/product/promo.png" class="z-2 h-auto top-50 start-50 translate-middle" alt="...">
+		                					-->
+		                					<img src="assets/img/product/no_images.svg" class="z-1" alt="...">
+		                				</div>
+		                				<figcaption class="figure-caption fs-5 fw-medium lh-1 mb-2">GRATIS Gelas Tangkai</figcaption>
+		                				<figcaption class="figure-caption small">
+			                				With coffee beans sourced from the East to the West of Indonesia
+		                				</figcaption>
+		                			</figure>
+	                			</a>
 	                		</div>
 
 	                		<div class="swiper-slide">
-	                			<figure class="figure">
-	                				<div class="figure-img ratio ratio-16x9 bg-secondary rounded-0 mb-3"></div>
-	                				<figcaption class="figure-caption fs-5 fw-medium lh-1 mb-2">GRATIS Gelas Tangkai</figcaption>
-	                				<figcaption class="figure-caption small">
-		                				With coffee beans sourced from the East to the West of Indonesia
-	                				</figcaption>
-	                			</figure>
+	                			<a class="text-reset text-decoration-none" href="#">
+		                			<figure class="figure">
+		                				<div class="figure-img ratio ratio-16x9 bg-secondary rounded-0 overflow-hidden mb-3">
+		                					<div class="top-50 start-50 translate-middle d-flex justify-content-center align-items-center z-3">
+									        	<div class="spinner-border text-dark" role="status"></div>
+								        	</div>
+								        	<!--
+		                					<img src="assets/img/product/promo.png" class="z-2 h-auto top-50 start-50 translate-middle" alt="...">
+		                					-->
+		                					<img src="assets/img/product/no_images.svg" class="z-1" alt="...">
+		                				</div>
+		                				<figcaption class="figure-caption fs-5 fw-medium lh-1 mb-2">GRATIS Gelas Tangkai</figcaption>
+		                				<figcaption class="figure-caption small">
+			                				With coffee beans sourced from the East to the West of Indonesia
+		                				</figcaption>
+		                			</figure>
+	                			</a>
 	                		</div>
 
 	                		<div class="swiper-slide">
-	                			<figure class="figure">
-	                				<div class="figure-img ratio ratio-16x9 bg-secondary rounded-0 mb-3"></div>
-	                				<figcaption class="figure-caption fs-5 fw-medium lh-1 mb-2">GRATIS Gelas Tangkai</figcaption>
-	                				<figcaption class="figure-caption small">
-		                				With coffee beans sourced from the East to the West of Indonesia
-	                				</figcaption>
-	                			</figure>
+	                			<a class="text-reset text-decoration-none" href="#">
+		                			<figure class="figure">
+		                				<div class="figure-img ratio ratio-16x9 bg-secondary rounded-0 overflow-hidden mb-3">
+		                					<div class="top-50 start-50 translate-middle d-flex justify-content-center align-items-center z-3">
+									        	<div class="spinner-border text-dark" role="status"></div>
+								        	</div>
+								        	<!--
+		                					<img src="assets/img/product/promo.png" class="z-2 h-auto top-50 start-50 translate-middle" alt="...">
+		                					-->
+		                					<img src="assets/img/product/no_images.svg" class="z-1" alt="...">
+		                				</div>
+		                				<figcaption class="figure-caption fs-5 fw-medium lh-1 mb-2">GRATIS Gelas Tangkai</figcaption>
+		                				<figcaption class="figure-caption small">
+			                				With coffee beans sourced from the East to the West of Indonesia
+		                				</figcaption>
+		                			</figure>
+	                			</a>
 	                		</div>
 
 	                		<div class="swiper-slide">
-	                			<figure class="figure">
-	                				<div class="figure-img ratio ratio-16x9 bg-secondary rounded-0 mb-3"></div>
-	                				<figcaption class="figure-caption fs-5 fw-medium lh-1 mb-2">GRATIS Gelas Tangkai</figcaption>
-	                				<figcaption class="figure-caption small">
-		                				With coffee beans sourced from the East to the West of Indonesia
-	                				</figcaption>
-	                			</figure>
+	                			<a class="text-reset text-decoration-none" href="#">
+		                			<figure class="figure">
+		                				<div class="figure-img ratio ratio-16x9 bg-secondary rounded-0 overflow-hidden mb-3">
+		                					<div class="top-50 start-50 translate-middle d-flex justify-content-center align-items-center z-3">
+									        	<div class="spinner-border text-dark" role="status"></div>
+								        	</div>
+								        	<!--
+		                					<img src="assets/img/product/promo.png" class="z-2 h-auto top-50 start-50 translate-middle" alt="...">
+		                					-->
+		                					<img src="assets/img/product/no_images.svg" class="z-1" alt="...">
+		                				</div>
+		                				<figcaption class="figure-caption fs-5 fw-medium lh-1 mb-2">GRATIS Gelas Tangkai</figcaption>
+		                				<figcaption class="figure-caption small">
+			                				With coffee beans sourced from the East to the West of Indonesia
+		                				</figcaption>
+		                			</figure>
+	                			</a>
 	                		</div>
 
 	                		<div class="swiper-slide">
-	                			<figure class="figure">
-	                				<div class="figure-img ratio ratio-16x9 bg-secondary rounded-0 mb-3"></div>
-	                				<figcaption class="figure-caption fs-5 fw-medium lh-1 mb-2">GRATIS Gelas Tangkai</figcaption>
-	                				<figcaption class="figure-caption small">
-		                				With coffee beans sourced from the East to the West of Indonesia
-	                				</figcaption>
-	                			</figure>
+	                			<a class="text-reset text-decoration-none" href="#">
+		                			<figure class="figure">
+		                				<div class="figure-img ratio ratio-16x9 bg-secondary rounded-0 overflow-hidden mb-3">
+		                					<div class="top-50 start-50 translate-middle d-flex justify-content-center align-items-center z-3">
+									        	<div class="spinner-border text-dark" role="status"></div>
+								        	</div>
+								        	<!--
+		                					<img src="assets/img/product/promo.png" class="z-2 h-auto top-50 start-50 translate-middle" alt="...">
+		                					-->
+		                					<img src="assets/img/product/no_images.svg" class="z-1" alt="...">
+		                				</div>
+		                				<figcaption class="figure-caption fs-5 fw-medium lh-1 mb-2">GRATIS Gelas Tangkai</figcaption>
+		                				<figcaption class="figure-caption small">
+			                				With coffee beans sourced from the East to the West of Indonesia
+		                				</figcaption>
+		                			</figure>
+	                			</a>
 	                		</div>
 
 	                		<div class="swiper-slide">
-	                			<figure class="figure">
-	                				<div class="figure-img ratio ratio-16x9 bg-secondary rounded-0 mb-3"></div>
-	                				<figcaption class="figure-caption fs-5 fw-medium lh-1 mb-2">GRATIS Gelas Tangkai</figcaption>
-	                				<figcaption class="figure-caption small">
-		                				With coffee beans sourced from the East to the West of Indonesia
-	                				</figcaption>
-	                			</figure>
+	                			<a class="text-reset text-decoration-none" href="#">
+		                			<figure class="figure">
+		                				<div class="figure-img ratio ratio-16x9 bg-secondary rounded-0 overflow-hidden mb-3">
+		                					<div class="top-50 start-50 translate-middle d-flex justify-content-center align-items-center z-3">
+									        	<div class="spinner-border text-dark" role="status"></div>
+								        	</div>
+								        	<!--
+		                					<img src="assets/img/product/promo.png" class="z-2 h-auto top-50 start-50 translate-middle" alt="...">
+		                					-->
+		                					<img src="assets/img/product/no_images.svg" class="z-1" alt="...">
+		                				</div>
+		                				<figcaption class="figure-caption fs-5 fw-medium lh-1 mb-2">GRATIS Gelas Tangkai</figcaption>
+		                				<figcaption class="figure-caption small">
+			                				With coffee beans sourced from the East to the West of Indonesia
+		                				</figcaption>
+		                			</figure>
+	                			</a>
 	                		</div>
 
 	                	</div>
