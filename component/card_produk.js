@@ -2,12 +2,12 @@ document.write(`
 	<div class="card card-produk rounded-0 border-0 text-reset text-center h-100">
 	    <a class="text-decoration-none text-reset d-inline bg-light" href="#" style="flex-grow: 0;">
 	        <div class="ratio ratio-1x1">
-	        	<div class="top-50 start-50 translate-middle">
+	        	<div class="top-50 start-50 translate-middle d-flex justify-content-center align-items-center z-3">
 		        	<div class="spinner-border text-dark" role="status"></div>
 	        	</div>
-	            <img src="assets/img/product/no_images.svg" alt="...">
+	            <img src="assets/img/product/produk.png" class="bg-light z-2" alt="...">
 	            <!--
-	            <img src="assets/img/product/produk.png" class="bg-light" alt="...">
+	            <img src="assets/img/product/no_images.svg" class="z-1" alt="...">
 	            -->
 	        </div>
 	    </a>
