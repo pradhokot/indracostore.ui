@@ -19,11 +19,6 @@ document.write(`
 	                </a>
 	            </li>
 	        </ul>
-	        <style>
-		        #mainMenuBar .nav-link {
-		        	cursor: pointer;
-		        }
-	        </style>
 	    </div>
 
 	    <div class="container">
@@ -283,16 +278,6 @@ document.write(`
 	                	</div>
 	                	<div class="swiper-button swiper-button-prev text-reset"></div>
 	                    <div class="swiper-button swiper-button-next text-reset"></div>
-	                    <style>
-		                    #swiperPromo .swiper-slide {
-		                    	width: 320px;
-		                    }
-
-	                    	#swiperPromo .swiper-button {
-	                    		background-color: rgba(255, 255, 255, .25);
-	                    		top: 90px;
-	                    	}
-	                    </style>
 	                </div>
 	            </div>
 	        </div>

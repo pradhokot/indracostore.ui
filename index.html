@@ -28,6 +28,35 @@
 	<!-- home banner -->
 	<script type="text/javascript" src="component/home_banner.js"></script>
 
+	<!-- breadcrumb -->
+	<div class="mb-4 mb-lg-5">
+		<div class="container">
+			<nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb">
+				<ol class="breadcrumb text-capitalize" style="font-size: .875em;">
+					<li class="breadcrumb-item"><a href="#">beranda</a></li>
+					<li class="breadcrumb-item"><a href="#">produk</a></li>
+					<li class="breadcrumb-item active"><a href="#">rasa sayang</a></li>
+				</ol>
+			</nav>
+			<style type="text/css">
+				.breadcrumb > li > a {
+					color: inherit;
+					opacity: .5;
+					transition: all .36s;
+				}
+
+				.breadcrumb > li:hover > a,
+				.breadcrumb > li.active > a {
+					opacity: 1;
+				}
+
+				.breadcrumb > li.active > a {
+					cursor: default;
+				}
+			</style>
+		</div>
+	</div>
+
 	<!-- trigger sidebar filter -->
 	<script type="text/javascript" src="component/trigger_sidebar_filter.js"></script>
 

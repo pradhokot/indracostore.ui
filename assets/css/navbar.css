@@ -24,6 +24,7 @@
 	font-family: 'HelveticaNeue Medium';
 	font-weight: 500;
 	position: relative;
+	cursor: pointer;
 }
 
 #mainMenuBar > li > a.collapsed {
@@ -75,4 +76,15 @@
 #sidemenu-product .nav-link.active,
 #sidemenu-product .nav-link.active::before {
 	opacity: 1;
+}
+
+
+/*============================ swiper slide collapse promo*/
+#swiperPromo .swiper-slide {
+	width: 320px;
+}
+
+#swiperPromo .swiper-button {
+	background-color: rgba(255, 255, 255, .25);
+	top: 90px;
 }

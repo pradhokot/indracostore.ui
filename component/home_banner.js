@@ -1,5 +1,5 @@
 document.write(`
-	<div id="homeBanner" class="carousel slide carousel-fade mb-lg-5" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
+	<div id="homeBanner" class="carousel slide carousel-fade mb-3" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
 	    <div class="carousel-inner">
 	        <div class="carousel-item active">
 	            <a class="text-decoration-none text-reset d-inline" href="#">
