@@ -2,8 +2,13 @@ document.write(`
 	<div class="card card-produk rounded-0 border-0 text-reset text-center h-100">
 	    <a class="text-decoration-none text-reset d-inline bg-light" href="#" style="flex-grow: 0;">
 	        <div class="ratio ratio-1x1">
-	            <img src="assets/img/no_images.svg">
+	        	<div class="top-50 start-50 translate-middle">
+		        	<div class="spinner-border text-dark" role="status"></div>
+	        	</div>
+	            <img src="assets/img/product/no_images.svg" alt="...">
+	            <!--
 	            <img src="assets/img/product/produk.png" class="bg-light" alt="...">
+	            -->
 	        </div>
 	    </a>
 	    <div class="card-body bg-light d-flex flex-column" style="flex: 1 1 auto;">
