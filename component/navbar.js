@@ -19,10 +19,9 @@ document.write(`
 	                </div>
 	            </li>
 	            <li>
-	                <button class="navbar-toggler rounded-0 border-0">
+	                <a class="navbar-toggler rounded-0 border-0" href="login.html">
 	                    <i class="bi bi-person-circle"></i>
-	                </button>
-	                
+	                </a>              
 	            </li>
 	            <li class="position-relative">
 	                <button class="navbar-toggler rounded-0 border-0">

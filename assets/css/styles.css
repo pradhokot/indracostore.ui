@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     font-family: 'HelveticaNeue', sans-serif;
     /*color: #fd4f00;*/
     color: #565656;
@@ -20,7 +21,11 @@ html, body {
     font-size: inherit !important;
 }
 
-main.wrapper > section {
+main.wrapper {
+    padding-top: calc(5rem + 1vw);
+}
+
+main.wrapper>section {
     margin-bottom: calc(5rem + 1vw);
 }
 
@@ -103,8 +108,8 @@ ul.list-vr li:last-of-type::before {
 }
 
 /*card produk stok habis*/
-.card-produk.stok-habis > a,
-.card-produk.stok-habis .card-footer > .btn {
+.card-produk.stok-habis>a,
+.card-produk.stok-habis .card-footer>.btn {
     pointer-events: none;
 }
 
@@ -134,7 +139,8 @@ ul.list-vr li:last-of-type::before {
 .form-check-input {
     background-color: #e4e4e4;
     border-color: #e4e4e4;
-    --bs-form-check-bg-image: none !important;;
+    --bs-form-check-bg-image: none !important;
+    ;
     width: 14px;
     height: 14px;
     margin-top: 0;
