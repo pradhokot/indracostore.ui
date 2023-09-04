@@ -1,7 +1,7 @@
 html,
 body {
     font-family: 'HelveticaNeue', sans-serif;
-    /*color: #fd4f00;*/
+    /* color: #fd4f00; */
     color: #565656;
 }
 
@@ -54,6 +54,11 @@ main.wrapper>section {
 
 
 /*============================ custom placeholder*/
+input,
+.form-check-label {
+    color: inherit !important;
+}
+
 input::placeholder {
     color: inherit !important;
     opacity: .5 !important;

@@ -25,7 +25,6 @@ document.write(`
 									<label class="form-check-label btn w-100 text-start rounded-0" for="kategoriKopi">
 										kopi
 									</label>
-
 								</div>
 								<div class="ps-4 pb-2">
 									<div class="form-check">
