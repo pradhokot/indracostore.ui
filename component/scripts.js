@@ -5,4 +5,4 @@ document.write(`
 	<script type="text/javascript" src="assets/noUiSlider-15.7.1/dist/nouislider.min.js"></script>
 	<script type="text/javascript" src="assets/js/range_slider.js"></script>
 	<script type="text/javascript" src="assets/js/script.js"></script>
-	`);
+`);

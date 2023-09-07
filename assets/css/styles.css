@@ -5,6 +5,17 @@ body {
     color: #565656;
 }
 
+button:focus,
+input:focus,
+select:focus,
+a:focus,
+textarea:focus,
+select {
+    outline: none !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
+}
+
 .bg-light {
     background-color: #f2f2f2 !important;
 }
@@ -27,6 +38,10 @@ main.wrapper {
 
 main.wrapper>section {
     margin-bottom: calc(5rem + 1vw);
+}
+
+.text-justify {
+    text-align: justify !important;
 }
 
 
@@ -65,6 +80,25 @@ input::placeholder {
 }
 
 
+/*============================ custom breadcrumb*/
+.breadcrumb>li>a {
+    color: inherit;
+    opacity: .5;
+    transition: all .36s;
+}
+
+.breadcrumb>li:hover>a,
+.breadcrumb>li.active>a {
+    opacity: 1;
+}
+
+.breadcrumb>li.active>a {
+    cursor: default;
+    text-decoration: none;
+    pointer-events: none;
+}
+
+
 /*============================ custom list vr*/
 ul.list-vr li {
     position: relative;
@@ -83,53 +117,6 @@ ul.list-vr li::before {
 
 ul.list-vr li:last-of-type::before {
     opacity: 0;
-}
-
-
-/*============================ custom card produk*/
-@media (min-width: 992px) {
-    .card-produk .card-footer {
-        width: 100%;
-        height: 5px;
-        overflow: hidden;
-        transition: all .36s;
-        position: absolute;
-        top: 100%;
-        left: 0;
-    }
-
-    .card-produk:hover .card-footer {
-        height: 37.6px;
-    }
-}
-
-/*harga produk*/
-.harga-produk .harga-promo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    column-gap: .5rem;
-}
-
-/*card produk stok habis*/
-.card-produk.stok-habis>a,
-.card-produk.stok-habis .card-footer>.btn {
-    pointer-events: none;
-}
-
-.card-produk .wording-stok-habis {
-    display: none;
-}
-
-.card-produk.stok-habis .wording-stok-habis {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card-produk.stok-habis .card-footer {
-    height: 5px !important;
 }
 
 

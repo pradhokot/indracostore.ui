@@ -1,6 +1,7 @@
 document.write(`
-	<div class="card card-produk rounded-0 border-0 text-reset text-center h-100 stok-habis">
-	    <a class="text-decoration-none text-reset d-inline bg-light" href="#" style="flex-grow: 0;">
+	<!-- tambahkan class "stok-habis" di class #card-produk untuk menampilkan konfirmasi stok produk habis -->
+	<div class="card card-produk rounded-0 border-0 text-reset text-center h-100">
+	    <a class="text-decoration-none text-reset d-inline bg-light" href="detail_produk.html" style="flex-grow: 0;">
 	        <div class="ratio ratio-1x1">
 	        	<div class="wording-stok-habis top-50 start-50 translate-middle" style="background-color: #f2f2f2c5; z-index: 100;">
 	        		<h5 class="fw-medium text-center fs-4">STOK <br class="d-lg-none"> HABIS</h5>
@@ -9,9 +10,9 @@ document.write(`
 		        	<div class="spinner-border text-dark" role="status"></div>
 	        	</div>
 	            <img src="assets/img/product/produk.png" class="bg-light z-2" alt="...">
-	            <!--
-	            <img src="assets/img/product/no_images.svg" class="z-1" alt="...">
+	            <!-- jika image produk belum ada tau kosong nonaktifkan image di atas
 	            -->
+	            <img src="assets/img/product/no_images.svg" class="z-1" alt="...">
 	        </div>
 	    </a>
 	    <div class="card-body bg-light d-flex flex-column" style="flex: 1 1 auto;">
@@ -29,7 +30,9 @@ document.write(`
 	        </div>
 	    </div>
 	    <div class="card-footer p-0 border-0 rounded-0">
-	        <a class="btn btn-dark w-100 rounded-0" href="#">BELI</a>
+	        <button class="btn btn-dark w-100 rounded-0" data-bs-toggle="modal" data-bs-target="#modalTambahKeranjang">
+				<i class="bi bi-bag-plus me-1"></i> BELI
+			</button>
 	    </div>
 	</div>
 	`)

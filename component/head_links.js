@@ -8,4 +8,6 @@ document.write(`
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/range_slider.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/sidebar_filter.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/card_produk.css">
 	`)

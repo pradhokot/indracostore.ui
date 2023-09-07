@@ -10,8 +10,8 @@ document.write(`
 	                </p>
 	                <p class="mb-2">Bergabunglah dengan kami dan dapatkan penawaran-penawaran menarik lainnya.</p>
 	                <div class="input-group bg-white border">
-	                    <input type="email" class="form-control rounded-0 border-0" placeholder="Email" name="">
-	                    <button class="btn">
+	                    <input type="email" class="form-control rounded-0 border-0" placeholder="Surel" name="">
+	                    <button class="btn rounded-0">
 	                        <i class="bi bi-envelope-fill"></i>
 	                    </button>
 	                </div>

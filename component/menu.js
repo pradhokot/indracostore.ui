@@ -4,17 +4,17 @@ document.write(`
 	    <div class="overflow-x-auto">
 	        <ul id="mainMenuBar" class="nav text-uppercase flex-nowrap text-nowrap justify-content-sm-center py-1 py-lg-0">
 	            <li class="nav-item">
-	                <a class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseProduk" href="https://indracostore.com/">
+	                <a class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseProduk" id="navProduk" href="#">
 	                    <h4 class="lh-reset fs-reset mb-0">produk</h4>
 	                </a>
 	            </li>
 	            <li class="nav-item">
-	                <a class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseMesin" href="#">
+	                <a class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseMesin" id="navMesin" href="#">
 	                    <h4 class="lh-reset fs-reset mb-0">mesin & peralatan</h4>
 	                </a>
 	            </li>
 	            <li class="nav-item">
-	                <a class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapsePromo" href="#">
+	                <a class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapsePromo" id="navPromo" href="#">
 	                    <h4 class="lh-reset fs-reset mb-0">promo</h4>
 	                </a>
 	            </li>
@@ -32,48 +32,48 @@ document.write(`
 	                    <div class="col col-12 col-lg-auto">
 	                        <ul id="sidemenu-product" class="nav flex-column text-capitalize" style="width: 100%; min-width: calc(175px + 1vw);">
 	                            <li class="nav-item">
-	                                <a class="nav-link px-0 active" data-bs-target="#tabSupresso" href="https://www.supresso.com/id/public/" target="_blank">
-	                                    <h3 class="fs-reset lh-1 mb-0">supresso</h3>
+	                                <a class="nav-link px-0 active" data-bs-target="#tabSupresso" href="brand.html">
+	                                    <h2 class="fs-reset lh-1 mb-0">supresso</h2>
 	                                </a>
 	                            </li>
 	                            <li class="nav-item">
-	                                <a class="nav-link px-0" data-bs-target="#tabBalicafe">
-	                                    <h3 class="fs-reset lh-1 mb-0">BaliCafé</h3>
+	                                <a class="nav-link px-0" data-bs-target="#tabBalicafe" href="brand.html">
+	                                    <h2 class="fs-reset lh-1 mb-0">BaliCafé</h2>
 	                                </a>
 	                            </li>
 	                            <li class="nav-item">
-	                                <a class="nav-link px-0" data-bs-target="#tabUcafe">
-	                                    <h3 class="fs-reset lh-1 mb-0">UCAFÉ</h3>
+	                                <a class="nav-link px-0" data-bs-target="#tabUcafe" href="brand.html">
+	                                    <h2 class="fs-reset lh-1 mb-0">UCAFÉ</h2>
 	                                </a>
 	                            </li>
 	                            <li class="nav-item">
-	                                <a class="nav-link px-0" data-bs-target="#tabRS">
-	                                    <h3 class="fs-reset lh-1 mb-0">rasa sayang</h3>
+	                                <a class="nav-link px-0" data-bs-target="#tabRS" href="brand.html">
+	                                    <h2 class="fs-reset lh-1 mb-0">rasa sayang</h2>
 	                                </a>
 	                            </li>
 	                            <li class="nav-item">
-	                                <a class="nav-link px-0" data-bs-target="#tabTB">
-	                                    <h3 class="fs-reset lh-1 mb-0">tugu buaya</h3>
+	                                <a class="nav-link px-0" data-bs-target="#tabTB" href="brand.html">
+	                                    <h2 class="fs-reset lh-1 mb-0">tugu buaya</h2>
 	                                </a>
 	                            </li>
 	                            <li class="nav-item">
-	                                <a class="nav-link px-0" data-bs-target="#tabUE">
-	                                    <h3 class="fs-reset lh-1 mb-0">uang emas</h3>
+	                                <a class="nav-link px-0" data-bs-target="#tabUE" href="brand.html">
+	                                    <h2 class="fs-reset lh-1 mb-0">uang emas</h2>
 	                                </a>
 	                            </li>
 	                            <li class="nav-item">
-	                                <a class="nav-link px-0" data-bs-target="#tabHC">
-	                                    <h3 class="fs-reset lh-1 mb-0">hao cafe</h3>
+	                                <a class="nav-link px-0" data-bs-target="#tabHC" href="brand.html">
+	                                    <h2 class="fs-reset lh-1 mb-0">hao cafe</h2>
 	                                </a>
 	                            </li>
 	                            <li class="nav-item">
-	                                <a class="nav-link px-0" data-bs-target="#tabBrochoco">
-	                                    <h3 class="fs-reset lh-1 mb-0">BROCHOCO</h3>
+	                                <a class="nav-link px-0" data-bs-target="#tabBrochoco" href="brand.html">
+	                                    <h2 class="fs-reset lh-1 mb-0">BROCHOCO</h2>
 	                                </a>
 	                            </li>
 	                            <li class="nav-item">
-	                                <a class="nav-link px-0" data-bs-target="#tabJaheku">
-	                                    <h3 class="fs-reset lh-1 mb-0">jaheku</h3>
+	                                <a class="nav-link px-0" data-bs-target="#tabJaheku" href="brand.html">
+	                                    <h2 class="fs-reset lh-1 mb-0">jaheku</h2>
 	                                </a>
 	                            </li>
 	                        </ul>

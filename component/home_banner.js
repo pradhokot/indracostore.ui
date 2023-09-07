@@ -1,56 +1,56 @@
 document.write(`
-	<div id="homeBanner" class="carousel slide carousel-fade mb-3" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
+	<div id="homeBanner" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
 	    <div class="carousel-inner">
 	        <div class="carousel-item active">
-	            <a class="text-decoration-none text-reset d-inline" href="#">
+	            <a class="text-decoration-none text-reset d-inline" href="brand.html">
 	                <img src="assets/img/banner/supresso_mobile.jpg" class="d-block d-lg-none w-100" alt="...">
 	                <img src="assets/img/banner/supresso_desktop.jpg" class="d-none d-lg-block w-100" alt="...">
 	            </a>
 	        </div>
 	        <div class="carousel-item">
-	            <a class="text-decoration-none text-reset d-inline" href="#">
+	            <a class="text-decoration-none text-reset d-inline" href="brand.html">
 	                <img src="assets/img/banner/bali_mobile.jpg" class="d-block d-lg-none w-100" alt="...">
 	                <img src="assets/img/banner/bali_desktop.jpg" class="d-none d-lg-block w-100" alt="...">
 	            </a>
 	        </div>
 	        <div class="carousel-item">
-	            <a class="text-decoration-none text-reset d-inline" href="#">
+	            <a class="text-decoration-none text-reset d-inline" href="brand.html">
 	                <img src="assets/img/banner/ucafe_mobile.jpg" class="d-block d-lg-none w-100" alt="...">
 	                <img src="assets/img/banner/ucafe_desktop.jpg" class="d-none d-lg-block w-100" alt="...">
 	            </a>
 	        </div>
 	        <div class="carousel-item">
-	            <a class="text-decoration-none text-reset d-inline" href="#">
+	            <a class="text-decoration-none text-reset d-inline" href="brand.html">
 	                <img src="assets/img/banner/rs_mobile.jpg" class="d-block d-lg-none w-100" alt="...">
 	                <img src="assets/img/banner/rs_desktop.jpg" class="d-none d-lg-block w-100" alt="...">
 	            </a>
 	        </div>
 	        <div class="carousel-item">
-	            <a class="text-decoration-none text-reset d-inline" href="#">
+	            <a class="text-decoration-none text-reset d-inline" href="brand.html">
 	                <img src="assets/img/banner/tb_mobile.jpg" class="d-block d-lg-none w-100" alt="...">
 	                <img src="assets/img/banner/tb_desktop.jpg" class="d-none d-lg-block w-100" alt="...">
 	            </a>
 	        </div>
 	        <div class="carousel-item">
-	            <a class="text-decoration-none text-reset d-inline" href="#">
+	            <a class="text-decoration-none text-reset d-inline" href="brand.html">
 	                <img src="assets/img/banner/ue_mobile.jpg" class="d-block d-lg-none w-100" alt="...">
 	                <img src="assets/img/banner/ue_desktop.jpg" class="d-none d-lg-block w-100" alt="...">
 	            </a>
 	        </div>
 	        <div class="carousel-item">
-	            <a class="text-decoration-none text-reset d-inline" href="#">
+	            <a class="text-decoration-none text-reset d-inline" href="brand.html">
 	                <img src="assets/img/banner/hc_mobile.jpg" class="d-block d-lg-none w-100" alt="...">
 	                <img src="assets/img/banner/hc_desktop.jpg" class="d-none d-lg-block w-100" alt="...">
 	            </a>
 	        </div>
 	        <div class="carousel-item">
-	            <a class="text-decoration-none text-reset d-inline" href="#">
+	            <a class="text-decoration-none text-reset d-inline" href="brand.html">
 	                <img src="assets/img/banner/bro_mobile.jpg" class="d-block d-lg-none w-100" alt="...">
 	                <img src="assets/img/banner/bro_desktop.jpg" class="d-none d-lg-block w-100" alt="...">
 	            </a>
 	        </div>
 	        <div class="carousel-item">
-	            <a class="text-decoration-none text-reset d-inline" href="#">
+	            <a class="text-decoration-none text-reset d-inline" href="brand.html">
 	                <img src="assets/img/banner/jahe_mobile.jpg" class="d-block d-lg-none w-100" alt="...">
 	                <img src="assets/img/banner/jahe_desktop.jpg" class="d-none d-lg-block w-100" alt="...">
 	            </a>

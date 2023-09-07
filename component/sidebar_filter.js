@@ -12,11 +12,11 @@ document.write(`
 			<!-- accordion menu (filter on mobile) -->
 			<div class="accordion accordion-flush text-reset mb-lg-5" id="accordionFilter">
 				<div class="accordion-item text-reset">
-					<h2 class="accordion-header">
+					<h5 class="accordion-header">
 						<button class="accordion-button text-reset px-0 fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-kategori" aria-expanded="false" aria-controls="accordion-collapse-kategori">
 							KATEGORI
 						</button>
-					</h2>
+					</h5>
 					<div id="accordion-collapse-kategori" class="accordion-collapse collapse show" data-bs-parent="#accordionFilter">
 						<div class="accordion-body px-0">
 							<div>
@@ -30,25 +30,25 @@ document.write(`
 									<div class="form-check">
 										<input class="form-check-input rounded-circle" type="checkbox" value="" id="kopiBubuk">
 										<label class="form-check-label btn w-100 text-start rounded-0" for="kopiBubuk">
-											kopi bubuk
+											<h3>kopi bubuk</h3>
 										</label>
 									</div>
 									<div class="form-check">
 										<input class="form-check-input rounded-circle" type="checkbox" value="" id="kopi2in1">
 										<label class="form-check-label btn w-100 text-start rounded-0" for="kopi2in1">
-											kopi 2 in 1
+											<h3>kopi 2 in 1</h3>
 										</label>
 									</div>
 									<div class="form-check">
 										<input class="form-check-input rounded-circle" type="checkbox" value="" id="kopi3in1">
 										<label class="form-check-label btn w-100 text-start rounded-0" for="kopi3in1">
-											kopi 3 in 1
+											<h3>kopi 3 in 1</h3>
 										</label>
 									</div>
 									<div class="form-check">
 										<input class="form-check-input rounded-circle" type="checkbox" value="" id="kopiInstan">
 										<label class="form-check-label btn w-100 text-start rounded-0" for="kopiInstan">
-											kopi instan
+											<h3>kopi instan</h3>
 										</label>
 									</div>
 								</div>
@@ -56,7 +56,7 @@ document.write(`
 							<div class="form-check">
 								<input class="form-check-input rounded-circle" type="checkbox" value="" id="kategoriMesin">
 								<label class="form-check-label btn w-100 text-start rounded-0" for="kategoriMesin">
-									mesin
+									<h3>mesin</h3>
 								</label>
 							</div>
 							<div>
@@ -70,13 +70,13 @@ document.write(`
 									<div class="form-check">
 										<input class="form-check-input rounded-circle" type="checkbox" value="" id="minumanJahe">
 										<label class="form-check-label btn w-100 text-start rounded-0" for="minumanJahe">
-											jahe
+											<h3>jahe</h3>
 										</label>
 									</div>
 									<div class="form-check">
 										<input class="form-check-input rounded-circle" type="checkbox" value="" id="minumanCokelat">
 										<label class="form-check-label btn w-100 text-start rounded-0" for="minumanCokelat">
-											cokelat
+											<h3>cokelat</h3>
 										</label>
 									</div>
 								</div>
@@ -86,59 +86,59 @@ document.write(`
 				</div>
 
 				<div class="accordion-item text-reset">
-					<h2 class="accordion-header">
+					<h5 class="accordion-header">
 						<button class="accordion-button text-reset px-0 fw-medium collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-merek" aria-expanded="false" aria-controls="accordion-collapse-merek">
 							MEREK
 						</button>
-					</h2>
+					</h5>
 					<div id="accordion-collapse-merek" class="accordion-collapse collapse" data-bs-parent="#accordionFilter">
 						<div class="accordion-body px-0">
 							<div class="form-check">
 								<input class="form-check-input rounded-circle" type="checkbox" value="" id="merekBalicafe">
 								<label class="form-check-label btn w-100 text-start rounded-0" for="merekBalicafe">
-									BaliCafe
+									<h2>BaliCafe</h2>
 								</label>
 							</div>
 							<div class="form-check">
 								<input class="form-check-input rounded-circle" type="checkbox" value="" id="merekUcafe">
 								<label class="form-check-label btn w-100 text-start rounded-0" for="merekUcafe">
-									UCAFÉ
+									<h2>UCAFÉ</h2>
 								</label>
 							</div>
 							<div class="form-check">
 								<input class="form-check-input rounded-circle" type="checkbox" value="" id="merekRS">
 								<label class="form-check-label btn w-100 text-start rounded-0" for="merekRS">
-									rasa sayang
+									<h2>rasa sayang</h2>
 								</label>
 							</div>
 							<div class="form-check">
 								<input class="form-check-input rounded-circle" type="checkbox" value="" id="merekTB">
 								<label class="form-check-label btn w-100 text-start rounded-0" for="merekTB">
-									tugu buaya
+									<h2>tugu buaya</h2>
 								</label>
 							</div>
 							<div class="form-check">
 								<input class="form-check-input rounded-circle" type="checkbox" value="" id="merekUE">
 								<label class="form-check-label btn w-100 text-start rounded-0" for="merekUE">
-									uang emas
+									<h2>uang emas</h2>
 								</label>
 							</div>
 							<div class="form-check">
 								<input class="form-check-input rounded-circle" type="checkbox" value="" id="merekHC">
 								<label class="form-check-label btn w-100 text-start rounded-0" for="merekHC">
-									hao cafe
+									<h2>hao cafe</h2>
 								</label>
 							</div>
 							<div class="form-check">
 								<input class="form-check-input rounded-circle" type="checkbox" value="" id="merekBrochoco">
 								<label class="form-check-label btn w-100 text-start rounded-0" for="merekBrochoco">
-									BROCHOCO
+									<h2>BROCHOCO</h2>
 								</label>
 							</div>
 							<div class="form-check">
 								<input class="form-check-input rounded-circle" type="checkbox" value="" id="merekJaheku">
 								<label class="form-check-label btn w-100 text-start rounded-0" for="merekJaheku">
-									jaheku
+									<h2>jaheku</h2>
 								</label>
 							</div>
 						</div>
@@ -146,41 +146,41 @@ document.write(`
 				</div>
 
 				<div class="accordion-item text-reset">
-					<h2 class="accordion-header">
+					<h5 class="accordion-header">
 						<button class="accordion-button text-reset px-0 fw-medium collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-kemasan" aria-expanded="false" aria-controls="accordion-collapse-kemasan">
 							KEMASAN
 						</button>
-					</h2>
+					</h5>
 					<div id="accordion-collapse-kemasan" class="accordion-collapse collapse" data-bs-parent="#accordionFilter">
 						<div class="accordion-body px-0">
 							<div class="form-check">
 								<input class="form-check-input rounded-circle" type="checkbox" value="" id="kemasanBag">
 								<label class="form-check-label btn w-100 text-start rounded-0" for="kemasanBag">
-									Bag
+									<h3>Bag</h3>
 								</label>
 							</div>
 							<div class="form-check">
 								<input class="form-check-input rounded-circle" type="checkbox" value="" id="kemasanBox">
 								<label class="form-check-label btn w-100 text-start rounded-0" for="kemasanBox">
-									Box
+									<h3>Box</h3>
 								</label>
 							</div>
 							<div class="form-check">
 								<input class="form-check-input rounded-circle" type="checkbox" value="" id="kemasanRenceng">
 								<label class="form-check-label btn w-100 text-start rounded-0" for="kemasanRenceng">
-									Renceng
+									<h3>Renceng</h3>
 								</label>
 							</div>
 							<div class="form-check">
 								<input class="form-check-input rounded-circle" type="checkbox" value="" id="kemasanSachet">
 								<label class="form-check-label btn w-100 text-start rounded-0" for="kemasanSachet">
-									Sachet
+									<h3>Sachet</h3>
 								</label>
 							</div>
 							<div class="form-check">
 								<input class="form-check-input rounded-circle" type="checkbox" value="" id="kemasanTupper">
 								<label class="form-check-label btn w-100 text-start rounded-0" for="kemasanTupper">
-									Tupper
+									<h3>Tupper</h3>
 								</label>
 							</div>
 						</div>
@@ -188,11 +188,11 @@ document.write(`
 				</div>
 
 				<div class="accordion-item text-reset d-none d-lg-block">
-					<h2 class="accordion-header">
+					<h5 class="accordion-header">
 						<button class="accordion-button text-reset px-0 fw-medium collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-urutkan" aria-expanded="false" aria-controls="accordion-collapse-urutkan">
 							URUTKAN
 						</button>
-					</h2>
+					</h5>
 					<div id="accordion-collapse-urutkan" class="accordion-collapse collapse" data-bs-parent="#accordionFilter">
 						<div class="accordion-body px-0">
 							<script type="text/javascript" src="component/sort_product.js"></script>
@@ -201,11 +201,11 @@ document.write(`
 				</div>
 
 				<div class="accordion-item text-reset">
-					<h2 class="accordion-header">
+					<h5 class="accordion-header">
 						<button class="accordion-button text-reset px-0 fw-medium collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-harga" aria-expanded="false" aria-controls="accordion-collapse-harga">
 							HARGA
 						</button>
-					</h2>
+					</h5>
 					<div id="accordion-collapse-harga" class="accordion-collapse collapse" data-bs-parent="#accordionFilter">
 						<div class="accordion-body px-0">
 							<p class="d-flex justify-content-between align-items-center flex-nowrap column-gap-3">
@@ -219,33 +219,6 @@ document.write(`
 					</div>
 				</div>
 			</div>
-			<style type="text/css">
-				@media (min-width: 992px) {
-					#accordionFilter {
-						width: 216px;
-						margin-top: -1rem;
-					}
-				}
-
-				#accordionFilter .accordion-button {
-					color: #565656 !important;
-					background-color: transparent !important;
-					background-image: linear-gradient(to right, #f2f2f2, transparent);
-					box-shadow: unset !important;
-					padding-left: .75rem !important;
-					transition: all .36s !important;
-				}
-
-				#accordionFilter .accordion-button.collapsed {
-					color: #878787 !important;
-					background-image: linear-gradient(to right, transparent, transparent);
-					padding-left: 0 !important;
-				}
-
-				#accordionFilter .accordion-button::after {
-					opacity: .5 !important;
-				}
-			</style>
 
 			<div class="d-none d-lg-flex flex-column row-gap-1">
 				<script type="text/javascript" src="component/trigger_filter.js"></script>
