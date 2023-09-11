@@ -1,4 +1,8 @@
 document.write(`
+	<!-- modal search -->
+	<script type="text/javascript" src="component/modal_searching.js"></script>
+
+	<!-- footer Copyright section -->
 	<footer id="copyright" class="bg-light border-top small" style="color: #878787;">
 	    <div class="container py-5">
 	        <div class="row gy-5 gy-md-0 gx-md-5">
@@ -17,21 +21,21 @@ document.write(`
 	                </div>
 	            </div>
 	            <div class="col col-12 col-md-auto col-xl-5 order-md-1">
-	                <div class="row gx-4 gx-lg-5">
+	                <div class="row gx-4 gx-lg-5" id="menuUtama">
 	                    <div class="col">
 	                        <h6 class="fw-medium text-uppercase mb-2 text-dark">informasi</h6>
 	                        <ul class="list-unstyled mb-0 text-capitalize">
 	                            <li>
-	                                <a class="text-decoration-none text-reset" href="#">tentang kami</a>
+	                                <a class="text-decoration-none text-reset" href="index.html">tentang kami</a>
 	                            </li>
 	                            <li>
-	                                <a class="text-decoration-none text-reset" href="#">hubungi kami</a>
+	                                <a class="text-decoration-none text-reset" href="index.html">hubungi kami</a>
 	                            </li>
 	                            <li>
-	                                <a class="text-decoration-none text-reset" href="#">berita & event</a>
+	                                <a class="text-decoration-none text-reset" href="index.html">berita & acara</a>
 	                            </li>
 	                            <li>
-	                                <a class="text-decoration-none text-reset" href="#">promo</a>
+	                                <a class="text-decoration-none text-reset" href="brand.html">promo</a>
 	                            </li>
 	                        </ul>
 	                    </div>
@@ -39,31 +43,31 @@ document.write(`
 	                        <h6 class="fw-medium text-uppercase mb-2 text-dark">merek</h6>
 	                        <ul class="list-unstyled mb-0 text-capitalize">
 	                            <li>
-	                                <a class="text-decoration-none text-reset" href="#">supresso</a>
+	                                <a class="text-decoration-none text-reset" href="brand.html">supresso</a>
 	                            </li>
 	                            <li>
-	                                <a class="text-decoration-none text-reset" href="#">BaliCafe</a>
+	                                <a class="text-decoration-none text-reset" href="brand.html">BaliCafe</a>
 	                            </li>
 	                            <li>
-	                                <a class="text-decoration-none text-reset" href="#">UCAFÉ</a>
+	                                <a class="text-decoration-none text-reset" href="brand.html">UCAFÉ</a>
 	                            </li>
 	                            <li>
-	                                <a class="text-decoration-none text-reset" href="#">rasa sayang</a>
+	                                <a class="text-decoration-none text-reset" href="brand.html">rasa sayang</a>
 	                            </li>
 	                            <li>
-	                                <a class="text-decoration-none text-reset" href="#">tugu buaya</a>
+	                                <a class="text-decoration-none text-reset" href="brand.html">tugu buaya</a>
 	                            </li>
 	                            <li>
-	                                <a class="text-decoration-none text-reset" href="#">uang emas</a>
+	                                <a class="text-decoration-none text-reset" href="brand.html">uang emas</a>
 	                            </li>
 	                            <li>
-	                                <a class="text-decoration-none text-reset" href="#">hao cafe</a>
+	                                <a class="text-decoration-none text-reset" href="brand.html">hao cafe</a>
 	                            </li>
 	                            <li>
-	                                <a class="text-decoration-none text-reset" href="#">BROCHOCO</a>
+	                                <a class="text-decoration-none text-reset" href="brand.html">BROCHOCO</a>
 	                            </li>
 	                            <li>
-	                                <a class="text-decoration-none text-reset" href="#">jaheku</a>
+	                                <a class="text-decoration-none text-reset" href="brand.html">jaheku</a>
 	                            </li>
 	                        </ul>
 	                    </div>
@@ -71,17 +75,24 @@ document.write(`
 	                        <h6 class="fw-medium text-uppercase mb-2 text-dark">akun</h6>
 	                        <ul class="list-unstyled mb-0 text-capitalize">
 	                            <li>
-	                                <a class="text-decoration-none text-reset" href="#">akun saya</a>
+	                                <a class="text-decoration-none text-reset" href="signin.html">akun saya</a>
 	                            </li>
 	                            <li>
-	                                <a class="text-decoration-none text-reset" href="#">pesanan saya</a>
+	                                <a class="text-decoration-none text-reset" href="signin.html">pesanan saya</a>
 	                            </li>
 	                            <li>
-	                                <a class="text-decoration-none text-reset" href="#">pengiriman</a>
+	                                <a class="text-decoration-none text-reset" href="pengiriman.html">pengiriman</a>
 	                            </li>
 	                        </ul>
 	                    </div>
 	                </div>
+					<style>
+						#copyright #menuUtama ul > li > a.active {
+							color: #565656 !important;
+							text-decoration: underline !important;
+							font-family: 'HelveticaNeue Medium';
+						}
+					</style>
 	            </div>
 	        </div>
 	    </div>
@@ -106,11 +117,11 @@ document.write(`
 	                    </a>
 	                </div>
 	                <div class="col col-12 col-lg order-lg-1">
-	                    <nav style="--bs-breadcrumb-divider: '|';" aria-label="breadcrumb">
+	                    <nav id="copyrightNavBreadcrumb" style="--bs-breadcrumb-divider: '|';" aria-label="breadcrumb">
 	                        <ol class="breadcrumb mb-2 text-capitalize">
-	                            <li class="breadcrumb-item"><a href="#">kebijakan privasi</a></li>
-	                            <li class="breadcrumb-item"><a href="#">syarat & ketentuan</a></li>
-	                            <li class="breadcrumb-item"><a href="#">konfirmasi pembayaran</a></li>
+	                            <li class="breadcrumb-item"><a href="kebijakan_privasi.html">kebijakan privasi</a></li>
+	                            <li class="breadcrumb-item"><a href="syarat_ketentuan.html">syarat & ketentuan</a></li>
+	                            <li class="breadcrumb-item"><a href="konfirmasi_pembayaran.html">konfirmasi pembayaran</a></li>
 	                            <li class="breadcrumb-item"><a href="#">unduh brosur</a></li>
 	                            <li class="breadcrumb-item">
 	                                <a>
@@ -123,6 +134,15 @@ document.write(`
 	                        </ol>
 	                    </nav>
 	                    <style type="text/css">
+							#copyright .breadcrumb .breadcrumb-item.active {
+								color: inherit;
+							}
+
+							#copyright .breadcrumb .breadcrumb-item.active a {
+								color: #d1d2d2 !important;
+								text-decoration: underline;
+							}
+
 	                        #copyright .breadcrumb a {
 	                            color: inherit !important;
 	                            text-decoration: none;

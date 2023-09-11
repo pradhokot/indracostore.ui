@@ -208,7 +208,7 @@ document.write(`
 					</h5>
 					<div id="accordion-collapse-harga" class="accordion-collapse collapse" data-bs-parent="#accordionFilter">
 						<div class="accordion-body px-0">
-							<p class="d-flex justify-content-between align-items-center flex-nowrap column-gap-3">
+							<p class="d-flex justify-content-between align-items-center flex-nowrap column-gap-3 text-nowrap">
 								<span>Rp 0,-</span>
 								<span>Rp 123.000,-</span>
 							</p>

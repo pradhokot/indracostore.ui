@@ -34,6 +34,7 @@ select {
 
 main.wrapper {
     padding-top: calc(5rem + 1vw);
+    min-height: 50vh;
 }
 
 main.wrapper>section {
@@ -42,6 +43,24 @@ main.wrapper>section {
 
 .text-justify {
     text-align: justify !important;
+}
+
+.accordion-button {
+    box-shadow: none !important;
+}
+
+ol.stack-number {
+    counter-reset: item;
+}
+
+ol.stack-number>li {
+    display: flex;
+    column-gap: .5rem;
+}
+
+ol.stack-number>li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item;
 }
 
 

@@ -164,7 +164,8 @@
                                     </div>
                                 </div>
                             </form>
-                            <button type="submit" class="btn btn-lg btn-outline-dark rounded-0">
+                            <button type="submit" class="btn btn-lg btn-outline-dark rounded-0" data-bs-toggle="modal"
+                                data-bs-target="#modalSavePenerimaBaru">
                                 <i class="bi bi-save-fill"></i> Simpan Alamat
                             </button>
                         </div>
@@ -392,6 +393,41 @@
         </section>
 
     </main>
+
+    <!-- modal daftar penerima baru tersimpan -->
+    <div class="modal fade" id="modalSavePenerimaBaru" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="modalSavePenerimaBaruLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content rounded-0">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title opacity-50" id="modalLabel">
+                        <i class="bi bi-save-fill"></i> Save Penerima Baru
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-center">
+                        <i class="bi bi-check-circle text-success lh-1" style="font-size: 4rem;"></i>
+                        <br>
+                        <span class="fs-2 text-success">Berhasil Disimpan!</span>
+                        <br>
+                        <span>
+                            Penerima baru berhasil disimpan
+                            <br>
+                            dalam daftar penerima dengan nama
+                            <br>
+                            <span style="color: #fd4f00;">Yoggi D. Pradhokot</span>.
+                        </span>
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-lg btn-dark rounded-0 w-100" data-bs-dismiss="modal">
+                        Lanjutkan <i class="bi bi-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- copyright -->
     <script type="text/javascript" src="component/copyright.js"></script>

@@ -7,7 +7,7 @@ document.write(`
 	            <h1 class="position-absolute top-50 start-50 translate-middle fs-3 opacity-0">indracostore</h1>
 	        </a>
 	        <ul class="list-unstyled m-0 ms-auto d-flex align-items-center">
-	            <li class="pe-lg-2">
+	            <li class="pe-lg-2" data-bs-toggle="modal" data-bs-target="#modalSearching">
 	                <button class="navbar-toggler rounded-0 border-0 d-lg-none">
 	                    <i class="bi bi-search"></i>
 	                </button>
