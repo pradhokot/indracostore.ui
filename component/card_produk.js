@@ -11,11 +11,11 @@ document.write(`
 	        	</div>
 	            <img src="assets/img/product/produk.png" class="bg-light z-2" alt="...">
 	            <!-- jika image produk belum ada tau kosong nonaktifkan image di atas
-	            -->
 	            <img src="assets/img/product/no_images.svg" class="z-1" alt="...">
+	            -->
 	        </div>
 	    </a>
-	    <div class="card-body bg-light d-flex flex-column" style="flex: 1 1 auto;">
+	    <div class="card-body bg-light d-flex flex-column">
 	        <div style="flex: 1 1 auto;">
 	            <h3 class="card-title fs-reset mb-1 opacity-75"><small>kopi</small></h3>
 	            <h4 class="card-title fs-reset mb-0 fw-medium">UCAFÉ Kopi Instan Cappuccino R10</h4>
